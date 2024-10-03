@@ -1,0 +1,743 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*------------------------------------HEADER-----------------------------*/
+.bg-menu {
+    background-color: #759eb8;
+}
+
+.barrita a {
+    color: white;
+    font-size: 20px;
+}
+header h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font: weight 400px;;
+    font-style: normal;
+    font-size: 60px;
+    color: whitesmoke;
+}
+
+/*------------------------------HERO-------------------------------------*/
+.hero {
+    background-color: rgb(167, 145, 188);
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    background-image: url("../img/hero-nuevo-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2 {
+    font-size: 80px;
+    color: rgb(6, 143, 153);
+    display: flex;
+    align-items: center;
+    font-family: "Handlee", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 75px
+
+
+}
+
+.hero p {
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: floralwhite;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
+
+}
+
+.hero a {
+    border: 1.5px solid blueviolet;
+    background-color: #4942E4;
+    color: white;
+    padding: 5px;
+    margin: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+/*-----------------------MAIN INDEX------------------------------------*/
+
+main section a {
+    margin: 15px;
+}
+
+main section h2 {
+    margin: 15px;
+}
+
+/*----------------------------------------INDEX CLASS-------------------*/
+.opiniones {
+    background-color: #F5E9E2;
+    width: 100%;
+}
+
+.opiniones div {
+    display: inline-block;
+    margin: 15px;
+
+}
+
+.opiniones div img {
+    height: 80px;
+    width: 80px;
+}
+
+.opiniones div p {
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/************************ SECCION NUESTRAS TERAPIAS INDEX*****************/
+.tienda {
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+}
+
+.tienda div {
+    text-align: center;
+}
+
+.tienda div p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.tienda div a {
+    border: 2px;
+    background-color: #4942E4;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+
+.contenedor-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tienda h2 {
+    font-size: 55px;
+    background-color: #7392b7;
+    color: rgb(11, 60, 55);
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+}
+
+.tienda div img {
+    width: 150px;
+    height: 150px;
+
+
+}
+
+.tarjeta-1 {
+    border: 2px solid grey;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.tarjeta-2 {
+    border: 2px solid grey;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+
+}
+
+.tarjeta-3 {
+    border: 2px solid grey;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.tarjeta-4 {
+    border: 2px solid grey;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+/*--------------------------PAGINA QUIENES SOMOS-------------------------*/
+.quienes {
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    background-image: url("../img/cumpleanos-holistico.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quienes p {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: whitesmoke;
+    text-align: center;
+    
+
+}
+
+/*-------------------------------Pagina Servicios------------------------*/
+
+.vidaspasadas img {
+    width: 150px;
+    height: 150px;
+}
+
+.vidaspasadas p {
+    font-size: 15px;
+}
+
+.vidaspasadas div h2 {
+    font-size: 20px;
+}
+
+.vidaspasadas div {
+    
+    margin-left: 50px;
+}
+
+.registros img {
+    width: 150px;
+    height: 150px;
+}
+
+.registros div {
+   
+    margin-left: 50px;
+}
+
+.registros div h2 {
+    font-size: 20px;
+}
+
+
+.registros p {
+    font-size: 15px;
+}
+
+.reiki img {
+    width: 150px;
+    height: 150px;
+}
+
+.reiki div {
+   
+    margin-left: 50px;
+}
+
+.reiki div h2 {
+    font-size: 20px;
+}
+
+.reiki p {
+    font-size: 15px;
+}
+
+.biodecodificacion img {
+    width: 150px;
+    height: 150px;
+}
+
+.biodecodificacion p {
+    font-size: 15px;
+}
+
+.biodecodificacion div {
+
+    margin-left: 50px;
+}
+
+.biodecodificacion div h2 {
+    font-size: 15px;
+}
+
+.TOTAL {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.TOTAL p {
+    text-align: center;
+
+}
+
+
+
+
+/*--------------------------INDEX SECCION GALERIA------------------------*/
+.galeria {
+    background-color: #ede3e9;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria h2 {
+    background-color: #7392b7;
+    text-align: center;
+    font-size: 65px;
+    width: 100%;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.galeria div img {
+    height: 300px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.galeria div p {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafo-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.parrafo-2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*----------------PAGINA TIENDA COMPLETA-----------*/
+
+.kiosco div img {
+    height: 130px;
+    width: 130px;
+}
+
+.kiosco {
+    background-color: whitesmoke;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 70px;
+    row-gap: 20px;
+    max-width: 100%;
+
+
+
+}
+
+.kiosco div {
+    margin: 10px;
+    padding: 10px;
+    height: 230px;
+    text-align: center;
+    box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+    -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+}
+
+.producto-1 {
+    border: 2px solid grey;
+}
+
+.producto-2 {
+    border: 2px solid grey;
+}
+
+.producto-3 {
+    border: 2px solid grey;
+}
+
+.producto-4 {
+    border: 2px solid grey;
+}
+
+.producto-5 {
+    border: 2px solid grey;
+}
+
+.producto-6 {
+    border: 2px solid grey;
+}
+
+.producto-7 {
+    border: 2px solid grey;
+}
+
+.producto-8 {
+    border: 2px solid grey;
+}
+
+.producto-9 {
+    border: 2px solid grey;
+
+}
+
+.producto-10 {
+    border: 2px solid grey;
+}
+
+
+
+.kiosco div a {
+    border: 2px;
+    background-color: #4942E4;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/*----------------PAGINA CONTACTO----------------*/
+.separacion {
+    background-color: #7392b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario {
+    background-color: #b3c5d7;
+
+}
+
+.fondo-correo {
+    background-color: #d8e1e9;
+}
+
+.fondo-consulta {
+    background-color: #d8e1e9;
+}
+
+
+
+/*----------WHATSAPP STICKY -----------*/
+.fixed a img {
+    width: 80px;
+    height: 80px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+}
+
+
+/*---FOOTER---------*/
+
+footer {
+    background-color: #759eb8;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer img {
+    height: 90px;
+    width: 90px;
+    display: inline-flex
+
+    
+
+}
+
+footer div a img {
+    width: 80px;
+    height: 80px;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.datos {
+    text-align: center;
+    width: 100%;
+
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+/************** MEDIA QUERYS HEADER ************/
+
+
+@media screen and(max-width:1135px) {
+    .contenedor-flex {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and(max-width:998) {
+    header {
+        flex-direction: column;
+    }
+
+    .fixed a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:688) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixed a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:515px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixed a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:350) {
+    .fixed {
+        width: 15px;
+        height: 15px;
+
+
+    }
+}
+
+@media screen and (max-width:525px) {
+    header {
+        align-items: center;
+    }
+
+    header nav ul {
+        align-items: center;
+
+    }
+
+    header nav ul li {
+        flex-direction: column;
+    }
+}
+
+
+/***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
+@media screen and (max-width:1180px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+/************ MEDIA QUERYS PAGINA QUIENES SOMOS***********/
+@media screen and (max-width:799px) {
+    .quienes p {
+        font-size: 30px;
+    }
+
+    .galeria div p {
+        font-size: 25px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:627px) {
+    .quienes p {
+        font-size: 25px;
+    }
+
+    .galeria div p {
+        font-size: 20px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .quienes p {
+        font-size: 20px;
+
+    }
+
+    .galeria div p {
+        font-size: 20px;
+    }
+}
+
+/********************MEDIA QUERYS HERO******************/
+@media screen and (max-width:783px) {
+    .hero p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .hero h2 {
+        font-size: 60px;
+    }
+}
+
+/*****************MEDIA QUERYS SECCION GALERIA INDEX***********/
+
+/*****************MEDIA QUERYS PAGINA SERVICIOS**************/
+@media screen and (max-width:400px) {
+    .TOTAL {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .TOTAL {
+        justify-content: space-around;
+        font-size: 15px;
+        align-items: center;
+        margin: 0px;
+}
+}
+.vidaspasadas div img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.registros div img{
+    height: 100px;
+    width: 100px;
+}
+.reiki div img{
+    height: 100px;
+    width: 100px;
+}
+.biodecodificacion div img{
+    height: 100px;
+    width: 100px;
+}
+.Servicio-1{
+    display: flex;
+    align-items: center;
+}
+
