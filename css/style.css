@@ -18,6 +18,7 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
+
 /*------------------------------------HEADER-----------------------------*/
 .bg-menu {
     background-color: #759eb8;
@@ -27,10 +28,12 @@ body {
     color: white;
     font-size: 20px;
 }
-header h1{
+
+header h1 {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font: weight 400px;;
+    font: weight 400px;
+    ;
     font-style: normal;
     font-size: 60px;
     color: whitesmoke;
@@ -217,7 +220,7 @@ main section h2 {
     font-size: 40px;
     color: whitesmoke;
     text-align: center;
-    }
+}
 
 /*-------------------------------Pagina Servicios------------------------*/
 
@@ -299,27 +302,31 @@ main section h2 {
 }
 
 .TOTAL p {
-    text-align:left;
+    text-align: left;
 }
-.servicio-1{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.servicio-2{
+
+.servicio-1 {
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
-.servicio-3{
+
+.servicio-2 {
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
-.servicio-4{
+
+.servicio-3 {
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*--------------------------INDEX SECCION GALERIA------------------------*/
@@ -363,6 +370,7 @@ align-items: center;
     flex-direction: row;
     align-items: center;
 }
+
 .parrafo-2 {
     display: flex;
     flex-direction: row;
@@ -434,6 +442,7 @@ align-items: center;
 .producto-10 {
     border: 2px solid grey;
 }
+
 .producto-11 {
     border: 2px solid grey;
 }
@@ -441,15 +450,19 @@ align-items: center;
 .producto-12 {
     border: 2px solid grey;
 }
+
 .producto-13 {
     border: 2px solid grey;
 }
+
 .producto-14 {
     border: 2px solid grey;
 }
+
 .producto-15 {
     border: 2px solid grey;
 }
+
 .producto-16 {
     border: 2px solid grey;
 }
@@ -495,8 +508,9 @@ align-items: center;
 .fixed {
     position: fixed;
     bottom: 80px;
-    right: 50px;
+    right: 35px;
 }
+
 /*---FOOTER---------*/
 
 footer {
@@ -533,6 +547,23 @@ footer p {
     flex-direction: row;
     justify-content: space-around;
 }
+
+.renglon {
+    width: 200px;
+
+
+}
+
+.suscripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btn-color{
+    background-color: #4942E4 ;
+}
+
 /************** MEDIA QUERYS HEADER ************/
 @media screen and(max-width:1135px) {
     .contenedor-flex {
@@ -609,6 +640,7 @@ footer p {
         flex-direction: column;
     }
 }
+
 /***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
 @media screen and (max-width:1180px) {
     .kiosco {
@@ -704,27 +736,31 @@ footer p {
         font-size: 15px;
         align-items: center;
         margin: 0px;
+    }
 }
-}
-.vidaspasadas div img{
+
+.vidaspasadas div img {
     height: 100px;
     width: 100px;
-    align-items: center;
-}
-.registros div img{
-    height: 100px;
-    width: 100px;
-}
-.reiki div img{
-    height: 100px;
-    width: 100px;
-}
-.biodecodificacion div img{
-    height: 100px;
-    width: 100px;
-}
-.Servicio-1{
-    display: flex;
     align-items: center;
 }
 
+.registros div img {
+    height: 100px;
+    width: 100px;
+}
+
+.reiki div img {
+    height: 100px;
+    width: 100px;
+}
+
+.biodecodificacion div img {
+    height: 100px;
+    width: 100px;
+}
+
+.Servicio-1 {
+    display: flex;
+    align-items: center;
+}
