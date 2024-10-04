@@ -8,7 +8,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 a {
@@ -19,7 +18,6 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
-
 /*------------------------------------HEADER-----------------------------*/
 .bg-menu {
     background-color: #759eb8;
@@ -64,8 +62,6 @@ header h1{
     font-weight: 700;
     font-style: normal;
     font-size: 75px
-
-
 }
 
 .hero p {
@@ -76,7 +72,6 @@ header h1{
     font-weight: 700;
     font-style: normal;
     font-size: 65px;
-
 }
 
 .hero a {
@@ -87,11 +82,9 @@ header h1{
     margin: 15px;
     font-size: 30px;
     border-radius: 10px;
-
 }
 
 /*-----------------------MAIN INDEX------------------------------------*/
-
 main section a {
     margin: 15px;
 }
@@ -109,7 +102,6 @@ main section h2 {
 .opiniones div {
     display: inline-block;
     margin: 15px;
-
 }
 
 .opiniones div img {
@@ -167,15 +159,11 @@ main section h2 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-style: normal;
-
-
 }
 
 .tienda div img {
     width: 150px;
     height: 150px;
-
-
 }
 
 .tarjeta-1 {
@@ -229,9 +217,7 @@ main section h2 {
     font-size: 40px;
     color: whitesmoke;
     text-align: center;
-    
-
-}
+    }
 
 /*-------------------------------Pagina Servicios------------------------*/
 
@@ -249,7 +235,6 @@ main section h2 {
 }
 
 .vidaspasadas div {
-    
     margin-left: 50px;
 }
 
@@ -259,14 +244,12 @@ main section h2 {
 }
 
 .registros div {
-   
     margin-left: 50px;
 }
 
 .registros div h2 {
     font-size: 20px;
 }
-
 
 .registros p {
     font-size: 15px;
@@ -278,7 +261,6 @@ main section h2 {
 }
 
 .reiki div {
-   
     margin-left: 50px;
 }
 
@@ -300,7 +282,6 @@ main section h2 {
 }
 
 .biodecodificacion div {
-
     margin-left: 50px;
 }
 
@@ -318,12 +299,28 @@ main section h2 {
 }
 
 .TOTAL p {
-    text-align: center;
-
+    text-align:left;
 }
-
-
-
+.servicio-1{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.servicio-2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.servicio-3{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+.servicio-4{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 /*--------------------------INDEX SECCION GALERIA------------------------*/
 .galeria {
@@ -346,7 +343,6 @@ main section h2 {
 .galeria div img {
     height: 300px;
     width: 300px;
-
     display: flex;
     flex-direction: column;
 
@@ -366,17 +362,13 @@ main section h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
-
 .parrafo-2 {
     display: flex;
     flex-direction: row;
-
 }
 
 /*----------------PAGINA TIENDA COMPLETA-----------*/
-
 .kiosco div img {
     height: 130px;
     width: 130px;
@@ -384,16 +376,12 @@ main section h2 {
 
 .kiosco {
     background-color: whitesmoke;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    column-gap: 70px;
-    row-gap: 20px;
+    column-gap: 45px;
+    row-gap: 15px;
     max-width: 100%;
-
-
-
 }
 
 .kiosco div {
@@ -446,6 +434,25 @@ main section h2 {
 .producto-10 {
     border: 2px solid grey;
 }
+.producto-11 {
+    border: 2px solid grey;
+}
+
+.producto-12 {
+    border: 2px solid grey;
+}
+.producto-13 {
+    border: 2px solid grey;
+}
+.producto-14 {
+    border: 2px solid grey;
+}
+.producto-15 {
+    border: 2px solid grey;
+}
+.producto-16 {
+    border: 2px solid grey;
+}
 
 
 
@@ -465,12 +472,10 @@ main section h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .formulario {
     background-color: #b3c5d7;
-
 }
 
 .fondo-correo {
@@ -480,8 +485,6 @@ main section h2 {
 .fondo-consulta {
     background-color: #d8e1e9;
 }
-
-
 
 /*----------WHATSAPP STICKY -----------*/
 .fixed a img {
@@ -494,8 +497,6 @@ main section h2 {
     bottom: 80px;
     right: 50px;
 }
-
-
 /*---FOOTER---------*/
 
 footer {
@@ -509,15 +510,11 @@ footer img {
     height: 90px;
     width: 90px;
     display: inline-flex
-
-    
-
 }
 
 footer div a img {
     width: 80px;
     height: 80px;
-
 }
 
 footer p {
@@ -529,7 +526,6 @@ footer p {
 .datos {
     text-align: center;
     width: 100%;
-
 }
 
 .redes {
@@ -537,13 +533,7 @@ footer p {
     flex-direction: row;
     justify-content: space-around;
 }
-
-
-
-
 /************** MEDIA QUERYS HEADER ************/
-
-
 @media screen and(max-width:1135px) {
     .contenedor-flex {
         flex-direction: column;
@@ -552,7 +542,6 @@ footer p {
     header nav ul {
         flex-direction: column;
     }
-
 }
 
 @media screen and(max-width:998) {
@@ -620,8 +609,6 @@ footer p {
         flex-direction: column;
     }
 }
-
-
 /***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
 @media screen and (max-width:1180px) {
     .kiosco {
