@@ -377,6 +377,22 @@ main section h2 {
 }
 
 /*----------------PAGINA TIENDA COMPLETA-----------*/
+.calesita{
+    height: 40vh;
+}
+.calesita img{
+    width: 100%;
+    height: 250px;   
+}
+.calesita h2{
+    background-color: #7392b7;
+    text-align: center;
+}
+.calesita p{
+    font-size: 20px;
+    text-align: center;
+}
+
 .kiosco div img {
     height: 130px;
     width: 130px;
