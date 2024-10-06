@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
 
 
 
@@ -356,9 +356,11 @@ main section h2 {
 }
 
 .galeria div p {
-    font-size: 30px;
+    font-size: 70px;
     font-weight: bolder;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 700;
+    font-style: normal;
     margin-left: 25px;
     display: flex;
     flex-direction: column;
@@ -377,18 +379,21 @@ main section h2 {
 }
 
 /*----------------PAGINA TIENDA COMPLETA-----------*/
-.calesita{
+.calesita {
     height: 30vh;
 }
-.calesita img{
+
+.calesita img {
     width: 100%;
-    height: 250px;   
+    height: 250px;
 }
-.calesita h2{
+
+.calesita h2 {
     background-color: #7392b7;
     text-align: center;
 }
-.calesita p{
+
+.calesita p {
     font-size: 20px;
     text-align: center;
 }
@@ -517,8 +522,8 @@ main section h2 {
 
 /*----------WHATSAPP STICKY -----------*/
 .fixed a img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .fixed {
@@ -576,8 +581,9 @@ footer p {
     align-items: center;
 
 }
-.btn-color{
-    background-color: #4942E4 ;
+
+.btn-color {
+    background-color: #4942E4;
 }
 
 /************** MEDIA QUERYS HEADER ************/
