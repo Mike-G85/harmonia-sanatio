@@ -1,0 +1,51 @@
+footer{
+    background-color: $color-principal;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+        img{
+            overflow: hidden;
+            background-color: $color-principal;
+            height: 90px;
+            width: 90px;
+            display: inline-flex;
+            
+        }
+        }
+        div{
+            a{
+                background-color:transparent;
+                border: 0px ;
+                img{
+                    overflow: hidden;
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+        .datos {
+            text-align: center;
+            width: 100%;
+        }
+        .redes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .renglon {
+            width: 225px;
+        }
+        
+        .suscripcion {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+                        label{
+                            color: white;
+                            font-size: 20px;
+                        }
+        }
+        
+        .btn-color {
+            background-color: #4942E4;
+        }

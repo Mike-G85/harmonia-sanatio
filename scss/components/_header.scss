@@ -1,0 +1,23 @@
+header{
+        .bg-menu{
+            background-color: $color-principal;
+        }
+        h1{
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400px;
+            font-style: normal;
+            font-size: 60px;
+            color: whitesmoke;
+        }
+}
+.container-fluid img{
+    width: 100px;
+    height: 100px;
+}
+.barrita{
+        a{
+            color: white;
+            font-size: 20px;
+        }
+}

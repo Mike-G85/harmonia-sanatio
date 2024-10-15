@@ -116,6 +116,7 @@ main section h2 {
     margin-left: 15px;
     font-size: 17px;
     font-weight: 500;
+    color: black;
 }
 
 /************************ SECCION NUESTRAS TERAPIAS INDEX*****************/
@@ -132,6 +133,7 @@ main section h2 {
 .tienda div p {
     font-size: 20px;
     margin-bottom: 5px;
+    color: black;
 }
 
 .tienda div a {
@@ -376,6 +378,7 @@ main section h2 {
 .parrafo-2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 /*----------------PAGINA TIENDA COMPLETA-----------*/
@@ -551,35 +554,28 @@ footer div a img {
     width: 80px;
     height: 80px;
 }
-
 footer p {
     text-align: center;
     font-size: 30px;
     font-family: fantasy;
 }
-
 .datos {
     text-align: center;
     width: 100%;
 }
-
 .redes {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
 .renglon {
     width: 200px;
-
-
 }
 
 .suscripcion {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .btn-color {

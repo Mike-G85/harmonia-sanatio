@@ -1,0 +1,219 @@
+/************** MEDIA QUERYS HEADER ************/
+@media screen and(max-width:1135px) {
+    .contenedor-flex {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and(max-width:998) {
+    header {
+        flex-direction: column;
+    }
+
+    .fixed a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:688) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixed a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:515px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fixed a img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:350) {
+    .fixed {
+        width: 15px;
+        height: 15px;
+
+
+    }
+}
+
+@media screen and (max-width:525px) {
+    header {
+        align-items: center;
+    }
+
+    header nav ul {
+        align-items: center;
+
+    }
+
+    header nav ul li {
+        flex-direction: column;
+    }
+}
+
+/***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
+@media screen and (max-width:1180px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .kiosco {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+/************ MEDIA QUERYS PAGINA QUIENES SOMOS***********/
+@media screen and (max-width:799px) {
+    .quienes p {
+        font-size: 30px;
+    }
+
+    .galeria div p {
+        font-size: 25px;
+        align-items: center;
+    }
+    .opiniones{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:627px) {
+    .quienes p {
+        font-size: 25px;
+    }
+
+    .galeria div p {
+        font-size: 20px;
+        align-items: center;
+    }
+    .opiniones{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .quienes p {
+        font-size: 20px;
+
+    }
+    .opiniones{
+        font-size: 20px;
+    }
+
+    .galeria div p {
+        font-size: 20px;
+    }
+}
+
+/********************MEDIA QUERYS HERO******************/
+@media screen and (max-width:783px) {
+    .hero p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .hero h2 {
+        font-size: 60px;
+    }
+}
+
+/*****************MEDIA QUERYS SECCION OPINIONES INDEX***********/
+@media screen and( max-width:780px) {
+    .opiniones div p{
+        font-size: 25px;
+    }
+    }
+@media screen and (max-width:550px) {
+    .opniones div p{
+        font-size: 20px;
+    }
+}
+    
+/*****************MEDIA QUERYS PAGINA SERVICIOS**************/
+@media screen and (max-width:400px) {
+    .TOTAL {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .TOTAL {
+        justify-content: space-around;
+        font-size: 15px;
+        align-items: center;
+        margin: 0px;
+    }
+}
+
+.vidaspasadas div img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.registros div img {
+    height: 100px;
+    width: 100px;
+}
+
+.reiki div img {
+    height: 100px;
+    width: 100px;
+}
+
+.biodecodificacion div img {
+    height: 100px;
+    width: 100px;
+}
+
+.Servicio-1 {
+    display: flex;
+    align-items: center;
+}

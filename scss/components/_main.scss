@@ -1,0 +1,184 @@
+/********************* PAGINA INDEX*********************************/
+.hero{
+    background-color: rgb(167, 145, 188);
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    background-image: url("../img/hero-nuevo-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        h2{
+            font-size: 80px;
+            color: rgb(6, 143, 153);
+            display: flex;
+            align-items: center;
+            font-family: "Handlee", cursive;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 75px
+        }
+}       p{
+            margin-bottom: 30px;
+            font-size: 50px;
+            color: floralwhite;
+            font-family: "Amatic SC", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 65px;
+
+}
+        a{
+            border: 1.5px solid blueviolet;
+            background-color: #4942E4;
+            color: white;
+            padding: 5px;
+            margin: 15px;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+a:hover{
+    background-color: $color-principal;
+}
+
+
+.opiniones{
+    background-color:$color-terciario;
+    width: 100%;
+            div{
+                display: inline-block;
+                margin: 15px;
+                img{
+                    height: 80px;
+                    width: 80px;
+                }
+                p{
+                    margin-left: 15px;
+                    font-size: 30px;
+                    font-weight: 750;
+                    color: black;
+                }
+            }
+}
+.tienda{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 10px;
+        h2{
+            font-size: 55px;
+            background-color: #7392b7;
+            color: rgb(11, 60, 55);
+            text-align: center;
+            width: 100%;
+            margin-left: 0;
+            font-family: "Amatic SC", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        div{
+            text-align: center;
+            img{
+                width: 150px;
+                height: 150px;
+            }
+        }
+}
+.tienda div p {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.tienda div a {
+    border: 2px;
+    background-color: #4942E4;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+
+.contenedor-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/****************TARJETAS INDEX***************************/
+%ext-tarjetas{
+    border: 2px solid grey;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+    a:hover{
+        background-color: $color-principal
+    }
+}
+.tarjeta-1{
+    @extend %ext-tarjetas;
+    
+}
+.tarjeta-2{
+    @extend %ext-tarjetas;
+}
+.tarjeta-3{
+    @extend %ext-tarjetas;
+}
+.tarjeta-4{
+    @extend %ext-tarjetas;
+}
+.galeria{
+    background-color:$color-secundario;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+            h2{
+                background-color: #7392b7;
+                text-align: center;
+                font-size: 65px;
+                width: 100%;
+                font-family: "Amatic SC", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            }
+            div{
+                img{
+                    height: 300px;
+                    width: 300px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                p{
+                    font-size: 70px;
+                    font-weight: bolder;
+                    font-family: "Qwitcher Grypen", cursive;
+                    font-weight: 700;
+                    font-style: normal;
+                    color: black;
+                    margin-left: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+}
+%flex-index{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.parrafo-1{
+    @extend %flex-index;
+}
+.parrafo-2{
+    @extend %flex-index;
+}
+
+
