@@ -393,12 +393,11 @@ main section h2 {
 
 .calesita h2 {
     background-color: #7392b7;
-    text-align: center;
+
 }
 
 .calesita p {
     font-size: 20px;
-    text-align: center;
 }
 
 .kiosco div img {
@@ -407,20 +406,26 @@ main section h2 {
 }
 
 .kiosco {
-    background-color: whitesmoke;
+    background-color: #BCF2F6;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    column-gap: 45px;
+    column-gap: 35px;
     row-gap: 15px;
     max-width: 100%;
 }
 
 .kiosco div {
     margin: 10px;
+    margin-left: 50px;
     padding: 10px;
     height: 230px;
     text-align: center;
+    width: 320px;
+    
+}
+.kiosco div:hover{
+    transform: scale(1.1);
     box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
     -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
     -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
@@ -428,6 +433,7 @@ main section h2 {
 
 .producto-1 {
     border: 2px solid grey;
+    background-color: white;
 }
 
 .producto-2 {
@@ -501,6 +507,10 @@ main section h2 {
     margin: 2px;
     border-radius: 10px;
     margin-top: 10px;
+}
+.kiosco div a:hover{
+    background-color: #759eb8;
+    border: #759eb8;
 }
 
 /*----------------PAGINA CONTACTO----------------*/
@@ -661,7 +671,7 @@ footer p {
 
 /***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
 @media screen and (max-width:1180px) {
-    .kiosco {
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -669,7 +679,7 @@ footer p {
 }
 
 @media screen and (max-width:920px) {
-    .kiosco {
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -677,7 +687,7 @@ footer p {
 }
 
 @media screen and (max-width:650px) {
-    .kiosco {
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -685,7 +695,7 @@ footer p {
 }
 
 @media screen and (max-width:400px) {
-    .kiosco {
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -781,4 +791,88 @@ footer p {
 .Servicio-1 {
     display: flex;
     align-items: center;
+}
+
+
+
+.almacen{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    column-gap: 45px;
+    row-gap: 25px;
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+.almacen div{
+    height: 430px;
+
+}
+.almacen div:hover:not(.card-body>img){
+    transform: scale(1.1);
+    box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+    -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+}
+.almacen div img{
+    height: 250px;
+    width: 285px;
+}
+.ra-img img{
+    height: 200px;
+    width: 200px;
+}
+
+.tarrito img{
+    height: 350px;
+}
+.card:hover:not(.card-body>img){
+    transform: scale(1.1);
+    box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+    -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
+}
+.card{
+    overflow: hidden;
+    text-align: center;
+}
+/***queries**/
+@media screen and ( max-width:1400px) {
+.almacen{
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+}
+@media screen and (max-width:1000px) {
+    .almacen{
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:630px) {
+    .almacen{
+        flex-direction: column;
+        grid-template-columns: 1fr  1fr
+
+
+    }
+    
+}
+@media screen and (max-width:620px) {
+    .almacen{
+        flex-direction:column;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+
+    }
+    .card{
+        margin: auto;
+    }
 }
