@@ -4,7 +4,7 @@
     text-align: center;
     height: 90vh;
     width: 100%;
-    background-image: url("../img/hero-nuevo-bg.jpg");
+    background-image:url("../img/hero-nuevo-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,11 +141,13 @@ a:hover{
 .tarjeta-4{
     @extend %ext-tarjetas;
 }
+/*********************************GALERIA INDEX***************************/
 .galeria{
     background-color:$color-secundario;
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
             h2{
                 background-color: #7392b7;
                 text-align: center;
@@ -157,10 +159,13 @@ a:hover{
             }
             div{
                 img{
-                    height: 300px;
-                    width: 300px;
+                    height: 500px;
+                    width: 500px;
                     display: flex;
-                    flex-direction: column;
+                    flex-direction:row;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
                 }
                 p{
                     font-size: 70px;
@@ -171,7 +176,7 @@ a:hover{
                     color: black;
                     margin-left: 25px;
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: row;
                     align-items: center;
                 }
             }
@@ -187,6 +192,7 @@ a:hover{
 .parrafo-2{
     @extend %flex-index;
 }
+
 /******************************PAGINA QUIENES SOMOS*********************/
 .quienes{
     text-align: center;
