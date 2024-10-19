@@ -14,18 +14,18 @@
     justify-content: center;
     align-items: center;
         h2{
-            font-size: 80px;
+            font-size: nth($font-zize,10 );
             color: rgb(6, 143, 153);
             display: flex;
             align-items: center;
             font-family: "Handlee", cursive;
-            font-weight: 700;
+            font-weight: 900;
             font-style: normal;
-            font-size: 75px
+            font-size: nth($font-zize,11 );
         }
 }       p{
             margin-bottom: 30px;
-            font-size: 50px;
+            font-size:nth($font-zize,8 );
             color: floralwhite;
             font-family: "Amatic SC", sans-serif;
             font-weight: 700;
@@ -39,12 +39,13 @@
             color: white;
             padding: 5px;
             margin: 15px;
-            font-size: 30px;
+            font-size: nth($font-zize,6 );
             border-radius: 10px;
         }
 a:hover{
     background-color: $color-principal;
     border: $color-principal;
+    transform: scale(1.1);
 }
 
 
@@ -55,14 +56,16 @@ a:hover{
                 display: inline-block;
                 margin: 15px;
                 img{
-                    height: 80px;
-                    width: 80px;
+                    height: 90px;
+                    width: 90px;
                 }
                 p{
                     margin-left: 15px;
-                    font-size: 30px;
-                    font-weight: 750;
+                    font-size: nth($font-zize,4 );
+                    font-weight: 250;
                     color: black;
+                    font-family: "Libre Franklin", sans-serif;
+                    font-style: normal;
                 }
             }
 }
@@ -71,11 +74,11 @@ a:hover{
     width: 100%;
     padding: 10px;
         h2{
+            width: 100%;
             font-size: 55px;
             background-color: #7392b7;
             color: rgb(11, 60, 55);
             text-align: center;
-            width: 100%;
             margin-left: 0;
             font-family: "Amatic SC", sans-serif;
             font-weight: 700;
@@ -90,28 +93,26 @@ a:hover{
         }
 }
 .tienda div p {
-    font-size: 30px;
+    font-size: nth($font-zize,6 );
     margin-bottom: 5px;
     color: black;
 }
 
 .tienda div a {
-    border: 2px;
-    background-color: #4942E4;
-    color: white;
-    padding: 4px;
-    border-radius: 10px;
-    font-size: 17px;
+    border: map-get($botones-index,btn-borde);
+    background-color: map-get($botones-index,btn-fondo);
+    color: map-get($botones-index,btn-color);
+    padding: map-get($botones-index,btn-padding);
+    border-radius: map-get($botones-index,btn-borde);
+    font-size: nth($font-zize, 3);
 }
 
 
 .contenedor-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+    @include contenedor(flex, space-around, center, wrap,100%);
 }
+
+
 .contenedor-flex div:hover{
     transform: scale(1.1);
     box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
@@ -119,15 +120,7 @@ a:hover{
     -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
 }
 /**************************TARJETAS INDEX**************************/
-%ext-tarjetas{
-    border: 2px solid grey;
-    margin: 10px;
-    height: 250px;
-    width: 250px;
-    a:hover{
-        background-color: $color-principal
-    }
-}
+
 .tarjeta-1{
     @extend %ext-tarjetas;
     
@@ -193,6 +186,7 @@ a:hover{
     @extend %flex-index;
 }
 
+
 /******************************PAGINA QUIENES SOMOS*********************/
 .quienes{
     text-align: center;
@@ -210,7 +204,7 @@ a:hover{
             font-family: "Amatic SC", sans-serif;
             font-weight: 600;
             font-style: normal;
-            font-size: 40px;
+            font-size: nth($font-zize,7 );
             color: whitesmoke;
             text-align: center;
         }
@@ -221,7 +215,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 20px;
+    font-size: nth($font-zize,4 );
     width: 100%;
         p{
             text-align: left;
@@ -231,7 +225,7 @@ a:hover{
     div{
         margin-left: 50px;
         h2{
-            font-size: 20px;
+            font-size: nth($font-zize, 4);
         }
         img{
             width: 150px;
@@ -241,13 +235,13 @@ a:hover{
 
 }
 .vidaspasadas p{
-    font-size: 15px;
+    font-size: nth($font-zize,2);
 }
 .registros{
     div{
         margin-left: 50px;
         h2{
-            font-size: 20px;
+            font-size: nth($font-zize, 4);
         }
         img{
             width: 150px;
@@ -257,7 +251,7 @@ a:hover{
 
 }
 .registros p{
-    font-size: 15px;
+    font-size: nth($font-zize, 2);
 }
 .reiki{
     div{
@@ -273,13 +267,13 @@ a:hover{
 
 }
 .reiki p{
-    font-size: 15px;
+    font-size: nth($font-zize, 2);
 }
 .biodecodificacion{
     div{
         margin-left: 50px;
         h2{
-            font-size: 20px;
+            font-size: nth($font-zize, 4);
         }
         img{
             width: 150px;
@@ -289,7 +283,7 @@ a:hover{
 
 }
 .biodecodificacion p{
-    font-size: 15px;
+    font-size: nth($font-zize, 2);
 }
 .servicio-1 {
     display: flex;
@@ -315,7 +309,7 @@ a:hover{
     align-items: center;
 }
 .texto p{
-    font-size: 20px;
+    font-size: nth($font-zize, 4);
     color: black;
     font-weight: 450;
     font-family: "EB Garamond", serif;
@@ -330,7 +324,7 @@ a:hover{
                 height: 250px;
             }
             p{
-                font-size: 20px;
+                font-size: nth($font-zize, 4);
                 text-align: center;
             }
 }
@@ -377,7 +371,7 @@ a:hover{
     text-align: center;
 }
 .almacen div p{
-    font-size: 14px;
+    font-size: nth($font-zize, 1);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
     color: black;

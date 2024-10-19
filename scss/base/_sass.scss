@@ -1,6 +1,35 @@
-/*VARIABLES PALETA COLORES INDEX*/
-$color-principal:#759eb8;
+/******************VARIABLES PALETA COLORES **********************/
+$color-principal: #759eb8;
 $color-secundario: #ede3e9;
 $color-terciario: #F5E9E2;
 
+/*********************EXTENDS TARJETAS****************/
+%ext-tarjetas {
+    border: 2px solid grey;
+    margin: 10px;
+    height: 250px;
+    width: 250px;
 
+    a:hover {
+        background-color: $color-principal
+    }
+}
+
+/******************LISTAS*************************/
+$font-zize: 14px, 15px, 17px, 20px, 25px, 30px, 40px, 50px, 60px, 90px, 75px;
+
+/*****************MAPA BOTONES INDEX***************************/
+$botones-index: (
+    btn-fondo:#4942E4,
+    btn-borde: 2px,
+    btn-color:white,
+    btn-padding: 4px,
+    btn-border-radius: 10px
+    );
+    /***********************MIXIN*************************************/
+@mixin contenedor ($display, $justify, $align, $wrap, $width){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+    width: $width; }
