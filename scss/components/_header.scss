@@ -1,7 +1,4 @@
 header{
-        .bg-menu{
-            background-color: $color-principal;
-        }
         h1{
             font-family: "Dancing Script", cursive;
             font-optical-sizing: auto;
@@ -10,6 +7,9 @@ header{
             font-size: nth($font-zize,9 );
             color: whitesmoke;
         }
+}
+.bg-menu{
+    background-color: $color-principal;
 }
 .container-fluid img{
     width: 100px;
