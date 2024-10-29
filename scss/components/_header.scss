@@ -11,13 +11,18 @@ header{
 .bg-menu{
     background-color: $color-principal;
 }
-.container-fluid img{
-    width: 100px;
-    height: 100px;
+.container-fluid{
+    img{
+        width: 100px;
+        height: 100px;
+    }
 }
 .barrita{
         a{
             color: white;
-            font-size: nth($font-zize, 4);
+            font-family: "Cinzel", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 20px;
         }
 }

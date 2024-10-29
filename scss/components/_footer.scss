@@ -50,6 +50,15 @@ footer {
     label {
         color: white;
         font-size: nth($font-zize, 4);
+        font-family: "Cinzel", serif;
+        font-weight: 350;
+        font-style: normal;
+    }
+    input{
+        font-size: 15px;
+        font-family: "Cinzel", serif;
+        font-weight: 350;
+        font-style: normal;
     }
 }
 

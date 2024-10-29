@@ -4,7 +4,7 @@
         flex-direction: column;
     }
 
-    header{
+    header {
         flex-direction: column;
         align-items: center;
     }
@@ -14,100 +14,85 @@
     header {
         flex-direction: column;
         align-items: center;
-    }
-    header {
-        align-items: center;
+
+        nav {
+            ul {
+                align-items: center;
+
+                li {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
     }
 
-    header nav ul {
-        align-items: center;
 
+    .fixed {
+        a {
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
     }
 
-    header nav ul li {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .fixed a img {
-        width: 40px;
-        height: 40px;
-    }
 }
+
 @media screen and(max-width:988px) {
-.nav-link{
-    align-items: center;
+    .nav-link {
+        align-items: center;
+    }
 }
-}
-
-
 
 @media screen and (max-width:688px) {
     header {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+
+        nav {
+            ul {
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
     }
 
-    header nav ul {
-        justify-content: center;
+}
 
-    }
-
-    header nav ul li {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .fixed a img {
-        width: 40px;
-        height: 40px;
+.fixed {
+    a {
+        img {
+            width: 40px;
+            height: 40px;
+        }
     }
 }
 
-@media screen and (max-width:570px) {
-    .galeria {
-        flex-direction: column;
-        align-items: center;
-    }
-    .galeria p{
-        font-size: 25px;
-    }
-    header{
-        flex-direction: column;
-        align-items: center;
-    }
-    header {
-        align-items: center;
-    }
-
-    header nav ul {
-        align-items: center;
-
-    }
-
-    header nav ul li {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 @media screen and (max-width:550px) {
     header {
         flex-direction: column;
         align-items: center;
-    }
-    header {
-        align-items: center;
+
+        nav {
+            ul {
+                align-items: center;
+
+                li {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
     }
 
-    header nav ul {
-        align-items: center;
-
-    }
-
-    header nav ul li {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 
@@ -115,23 +100,26 @@
     header {
         flex-direction: column;
         align-items: center;
-    }
-    header {
-        align-items: center;
+
+        nav {
+            ul {
+                align-items: center;
+
+                li {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
     }
 
-    header nav ul {
-        align-items: center;
-
-    }
-
-    header nav ul li {
-        flex-direction: column;
-        align-items: center;
-    }
-    .fixed a img {
-        width: 40px;
-        height: 40px;
+    .fixed {
+        a {
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
     }
 }
 
@@ -139,30 +127,29 @@
     .fixed {
         width: 15px;
         height: 15px;
-
-
     }
 }
 
 @media screen and (max-width:525px) {
     header {
         align-items: center;
-    }
 
-    header nav ul {
-        align-items: center;
+        nav {
+            ul {
+                align-items: center;
 
-    }
-
-    header nav ul li {
-        flex-direction: column;
-        align-items: center;
+                li {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
     }
 }
 
 /***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
 @media screen and (max-width:1180px) {
-    .almacen{
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -171,17 +158,16 @@
 }
 
 @media screen and (max-width:920px) {
-    .almacen{
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         margin-left: 40px;
     }
-
 }
 
 @media screen and (max-width:650px) {
-    .almacen{
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -189,118 +175,155 @@
 }
 
 @media screen and (max-width:400px) {
-    .almacen{
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 }
-@media screen and ( max-width:1400px) {
-    .almacen{
+
+@media screen and (max-width:1400px) {
+    .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
         margin: auto;
     }
-    }
-    @media screen and (max-width:1000px) {
-        .almacen{
-            flex-direction: column;
-            grid-template-columns: 1fr 1fr;
-            justify-content: center;
-            margin: auto;
-        }
-        
-    }
-    @media screen and (max-width:630px) {
-        .almacen{
-            flex-direction: column;
-            grid-template-columns: 1fr  1fr;
-            margin: auto;
-    
-        }
-        
-    }
-    @media screen and (max-width:620px) {
-        .almacen{
-            flex-direction:column;
-            align-items: center;
-            grid-template-columns: 1fr;
-            grid-auto-rows: auto;
-    
-        }
-        .card{
-            margin: auto;
-        }
-    }
+}
 
-
-/************ MEDIA QUERYS PAGINA QUIENES SOMOS***********/
-@media screen and (max-width:799px) {
-    .quienes p {
-        font-size: 30px;
-    }
-
-    .galeria div p {
-        font-size: 25px;
-        align-items: center;
-    }
-    .opiniones{
-        font-size: 25px;
+@media screen and (max-width:1000px) {
+    .almacen {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: auto;
     }
 }
 
-@media screen and (max-width:627px) {
-    .quienes p {
-        font-size: 25px;
+@media screen and (max-width:630px) {
+    .almacen {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
     }
 
-    .galeria div p {
-        font-size: 25px;
+}
+
+@media screen and (max-width:620px) {
+    .almacen {
+        flex-direction: column;
         align-items: center;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+
     }
-    .opiniones{
-        font-size: 23px;
+
+    .card {
+        margin: auto;
+    }
+}
+
+/************ MEDIA QUERYS PAGINA QUIENES SOMOS***********/
+@media screen and (max-width:799px) {
+    .quienes {
+        p {
+            font-size: 30px;
+        }
+    }
+}
+
+.galeria {
+    div {
+        p {
+            font-size: 50px;
+            align-items: center;
+        }
+    }
+}
+
+.opiniones {
+    font-size: 25px;
+}
+
+@media screen and (max-width:627px) {
+    .quienes {
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .galeria {
+        div {
+            p {
+                font-size: 25px;
+                align-items: center;
+            }
+        }
+    }
+
+    .opiniones {
+        font-size: 25px;
     }
 }
 
 @media screen and (max-width:535px) {
-    .quienes p {
-        font-size: 20px;
+    .quienes {
+        p {
+            font-size: 25px;
+        }
     }
-    .opiniones{
-        font-size: 20px;
-    }
-    .galeria div p {
+
+    .opiniones {
         font-size: 25px;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .quienes {
+        p {
+            font-size: 23px;
+        }
     }
 }
 
 /********************MEDIA QUERYS HERO******************/
 @media screen and (max-width:783px) {
-    .hero p {
-        font-size: 30px;
+    .hero {
+        p {
+            font-size: 30px;
+        }
     }
 }
 
 @media screen and (max-width:520px) {
-    .hero h2 {
-        font-size: 60px;
+    .hero {
+        h2 {
+            font-size: 60px;
+        }
     }
 }
 
 /*****************MEDIA QUERYS SECCION OPINIONES INDEX***********/
-@media screen and( max-width:780px) {
-    .opiniones div p{
-        font-size: 25px;
-    }
-    }
-@media screen and (max-width:550px) {
-    .opniones div p{
-        font-size: 20px;
+@media screen and(max-width:780px) {
+    .opiniones {
+        div {
+            p {
+                font-size: 25px;
+            }
+        }
     }
 }
-    
+
+@media screen and (max-width:550px) {
+    .opniones {
+        div {
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
 /*****************MEDIA QUERYS PAGINA SERVICIOS**************/
 @media screen and (max-width:400px) {
     .TOTAL {
@@ -317,28 +340,83 @@
     }
 }
 
-.vidaspasadas div img {
-    height: 100px;
-    width: 100px;
-    align-items: center;
+.vidaspasadas {
+    div {
+        img {
+            height: 100px;
+            width: 100px;
+            align-items: center;
+        }
+    }
 }
 
-.registros div img {
-    height: 100px;
-    width: 100px;
+.registros {
+    div {
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
 }
 
-.reiki div img {
-    height: 100px;
-    width: 100px;
+.reiki {
+    div {
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
 }
 
-.biodecodificacion div img {
-    height: 100px;
-    width: 100px;
+.biodecodificacion {
+    div {
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
 }
 
-.Servicio-1 {
-    display: flex;
-    align-items: center;
+/**************************MEDIA QUERYS COMUNIDAD INDEX****************************************************/
+@media screen and (max-width:570px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria {
+        div {
+            p {
+                font-size: 35px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:799px) {
+    .galeria {
+        div {
+            p {
+                font-size: 50px;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:535px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .galeria {
+        div {
+            p {
+                font-size: 40px;
+            }
+        }
+    }
+
 }
