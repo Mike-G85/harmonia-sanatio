@@ -121,7 +121,7 @@ a:hover {
   transform: scale(1.1); }
 
 .opiniones {
-  background-color: #F5E9E2;
+  background-color: #E2DAD6;
   width: 100%; }
   .opiniones div {
     display: inline-block;
@@ -185,6 +185,18 @@ a:hover {
   -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52); }
 
 /**************************TARJETAS INDEX**************************/
+.tarjeta-1 img {
+  margin-top: 15px; }
+
+.tarjeta-2 img {
+  margin-top: 15px; }
+
+.tarjeta-3 img {
+  margin-top: 15px; }
+
+.tarjeta-4 img {
+  margin-top: 15px; }
+
 /*********************************GALERIA INDEX***************************/
 .galeria {
   background-color: #ede3e9;
@@ -243,7 +255,7 @@ a:hover {
 
 /******************************PAGINA SERVICIOS*************************/
 .TOTAL {
-  background-color: whitesmoke;
+  background-color: #E2DAD6;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,8 +331,9 @@ a:hover {
   column-gap: 45px;
   row-gap: 25px;
   max-width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-top: 30px;
+  margin-left: 40px;
   justify-content: center; }
   .almacen div {
     height: 430px; }
@@ -338,13 +351,6 @@ a:hover {
   box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
   -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
   -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52); }
-
-.ra-img img {
-  height: 200px;
-  width: 200px; }
-
-.tarrito img {
-  height: 350px; }
 
 .card:hover {
   transform: scale(1.1);
@@ -418,20 +424,38 @@ footer {
 @media screen and (max-width: 1135px) {
   .contenedor-flex {
     flex-direction: column; }
-  header nav ul {
-    flex-direction: column; } }
-
-@media screen and (max-width: 998) {
   header {
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 998px) {
+  header {
+    flex-direction: column;
+    align-items: center; }
+  header {
+    align-items: center; }
+  header nav ul {
+    align-items: center; }
+  header nav ul li {
+    flex-direction: column;
+    align-items: center; }
   .fixed a img {
     width: 40px;
     height: 40px; } }
 
-@media screen and (max-width: 688) {
+@media screen and (max-width: 988px) {
+  .nav-link {
+    align-items: center; } }
+
+@media screen and (max-width: 688px) {
   header {
     flex-direction: column;
-    align-items: center; }
+    justify-content: center; }
+  header nav ul {
+    justify-content: center; }
+  header nav ul li {
+    flex-direction: column;
+    justify-content: center; }
   .fixed a img {
     width: 40px;
     height: 40px; } }
@@ -441,10 +465,39 @@ footer {
     flex-direction: column;
     align-items: center; }
   .galeria p {
-    font-size: 25px; } }
+    font-size: 25px; }
+  header {
+    flex-direction: column;
+    align-items: center; }
+  header {
+    align-items: center; }
+  header nav ul {
+    align-items: center; }
+  header nav ul li {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 550px) {
+  header {
+    flex-direction: column;
+    align-items: center; }
+  header {
+    align-items: center; }
+  header nav ul {
+    align-items: center; }
+  header nav ul li {
+    flex-direction: column;
+    align-items: center; } }
 
 @media screen and (max-width: 515px) {
   header {
+    flex-direction: column;
+    align-items: center; }
+  header {
+    align-items: center; }
+  header nav ul {
+    align-items: center; }
+  header nav ul li {
     flex-direction: column;
     align-items: center; }
   .fixed a img {
@@ -462,20 +515,23 @@ footer {
   header nav ul {
     align-items: center; }
   header nav ul li {
-    flex-direction: column; } }
+    flex-direction: column;
+    align-items: center; } }
 
 /***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
 @media screen and (max-width: 1180px) {
   .almacen {
     flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr; } }
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-left: 40px; } }
 
 @media screen and (max-width: 920px) {
   .almacen {
     flex-direction: column;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; } }
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 40px; } }
 
 @media screen and (max-width: 650px) {
   .almacen {

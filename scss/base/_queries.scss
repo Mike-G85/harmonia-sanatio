@@ -4,14 +4,29 @@
         flex-direction: column;
     }
 
-    header nav ul {
+    header{
         flex-direction: column;
+        align-items: center;
     }
 }
 
-@media screen and(max-width:998) {
+@media screen and(max-width:998px) {
     header {
         flex-direction: column;
+        align-items: center;
+    }
+    header {
+        align-items: center;
+    }
+
+    header nav ul {
+        align-items: center;
+
+    }
+
+    header nav ul li {
+        flex-direction: column;
+        align-items: center;
     }
 
     .fixed a img {
@@ -19,11 +34,28 @@
         height: 40px;
     }
 }
+@media screen and(max-width:988px) {
+.nav-link{
+    align-items: center;
+}
+}
 
-@media screen and (max-width:688) {
+
+
+@media screen and (max-width:688px) {
     header {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+    }
+
+    header nav ul {
+        justify-content: center;
+
+    }
+
+    header nav ul li {
+        flex-direction: column;
+        justify-content: center;
     }
 
     .fixed a img {
@@ -40,14 +72,63 @@
     .galeria p{
         font-size: 25px;
     }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        align-items: center;
+    }
+
+    header nav ul {
+        align-items: center;
+
+    }
+
+    header nav ul li {
+        flex-direction: column;
+        align-items: center;
+    }
 }
+@media screen and (max-width:550px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        align-items: center;
+    }
+
+    header nav ul {
+        align-items: center;
+
+    }
+
+    header nav ul li {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 @media screen and (max-width:515px) {
     header {
         flex-direction: column;
         align-items: center;
     }
+    header {
+        align-items: center;
+    }
 
+    header nav ul {
+        align-items: center;
+
+    }
+
+    header nav ul li {
+        flex-direction: column;
+        align-items: center;
+    }
     .fixed a img {
         width: 40px;
         height: 40px;
@@ -75,6 +156,7 @@
 
     header nav ul li {
         flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -84,6 +166,7 @@
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-left: 40px;
     }
 }
 
@@ -92,7 +175,9 @@
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 40px;
     }
+
 }
 
 @media screen and (max-width:650px) {
@@ -182,12 +267,10 @@
 @media screen and (max-width:535px) {
     .quienes p {
         font-size: 20px;
-
     }
     .opiniones{
         font-size: 20px;
     }
-
     .galeria div p {
         font-size: 25px;
     }
