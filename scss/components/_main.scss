@@ -447,7 +447,8 @@ a:hover {
         color: white;
         text-align: center;
         font-size: 35px;
-        
+        position: relative;
+        z-index: 1;
     }
 
     img {
@@ -472,7 +473,7 @@ a:hover {
     margin-top: 30px;
     margin-left: 40px;
     justify-content: center;
-    padding: 20px;
+    padding-top: 50px;
 
     div {
         height: 430px;
@@ -481,16 +482,13 @@ a:hover {
             height: 250px;
             width: 285px;
         }
-    }
-
-    div {
         p {
             font-family: "Cinzel", serif;
             font-weight: 500;
             font-style: normal;
             font-size: 15px;
             color: black;
-        }
+        }    
     }
 }
 
@@ -512,6 +510,7 @@ a:hover {
 .card {
     overflow: hidden;
     text-align: center;
+    margin: auto;
 }
 
 /*****************************PAGINA FAQ Y CONTACTO*********************/

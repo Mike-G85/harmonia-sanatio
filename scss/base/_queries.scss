@@ -148,14 +148,100 @@
 }
 
 /***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
+@media screen and(max-width:1400px) {
+    .almacen {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 40px;
+        padding-top: 40px;
+    }
+}
+@media screen and(max-width:1390px) {
+    .almacen {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 40px;
+        padding-top: 40px;
+    }
+    .calesita{
+        h1{
+            margin-bottom: 20px;
+        }
+    }
+    .card{
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and(max-width:1360px) {
+    .almacen {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 40px;
+        padding-top: 40px;
+    }
+    .calesita{
+        h1{
+            margin-bottom: 20px;
+        }
+    }
+    .card{
+        margin-top: 40px;
+    }
+    
+}
+
+
+@media screen and(max-width:1190px) {
+    .calesita{
+        h1{
+            font-size: 25px;
+        }
+        
+    }
+    
+}
+
+
+
+
+
+
+
 @media screen and (max-width:1180px) {
     .almacen {
         flex-direction: column;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
         margin-left: 40px;
     }
+    .calesita{
+        h1{
+            font-size: 27px;
+        }
+        
+    }
 }
+
+@media screen and (max-width:1170px ) {
+    .card{
+        margin-top: 20px;
+    }
+    
+}
+@media screen and(max-width:1006px) {
+    .calesita{
+        h1{
+            font-size: 25px;
+        }
+        
+    }
+}
+    
 
 @media screen and (max-width:920px) {
     .almacen {
@@ -163,8 +249,49 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         margin-left: 40px;
+        padding-top: 40px;
+    }
+    .calesita{
+        h1{
+            margin-bottom: 20px;
+            font-size: 25px;
+
+        }
     }
 }
+@media screen and(max-width:838px) {
+    .calesita{
+        h1{
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+    }
+    
+    
+}
+@media screen and(max-width:665px) {
+    .calesita{
+        h1{
+            font-size: 18px;
+        }
+    }
+    .card{
+        margin-top: 30px;
+    }
+    
+}
+@media screen and(max-width:615px) {
+    .calesita{
+        h1{
+            font-size: 18px;
+        }
+    }
+    .card{
+        margin-top: 30px;
+    }
+    
+}
+
 
 @media screen and (max-width:650px) {
     .almacen {
@@ -172,7 +299,44 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+    .calesita{
+        h1{
+            font-size: 20px;
+        }
+        
+    }
+    .card{
+        margin-top: 30px;
+    }
 }
+@media screen and(max-width:630px) {
+    .calesita{
+        h1{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+    }
+    .card{
+        margin-top: 30px;
+    }
+    
+}
+
+@media screen and(max-width:620px) {
+    .calesita{
+        h1{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+    }
+    .card{
+        margin-top: 30px;
+    }
+    
+}
+
 
 @media screen and (max-width:400px) {
     .almacen {
@@ -180,6 +344,17 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+    .calesita{
+        h1{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+    }
+    .card{
+        margin-top: 30px;
+    }
+    
 }
 
 @media screen and (max-width:1400px) {
@@ -219,7 +394,7 @@
     }
 
     .card {
-        margin: auto;
+        margin-top: 30px;
     }
 }
 
