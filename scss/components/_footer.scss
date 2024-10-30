@@ -35,7 +35,7 @@ footer {
 .redes {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:flex-end;    
 }
 
 .renglon {
@@ -46,6 +46,28 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    button{
+        border: 1.5px solid #4942E4;
+        border-radius: 10px;
+        background-color: #4942E4;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .btn{
+        border: 1.5px solid #4942E4;
+        border-radius: 10px;
+        background-color: #4942E4;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+    .btn:hover{
+        transform: scale(1.2);
+        transition: scale 1.8s;
+        background-color: $color-principal;
+    }
 
     label {
         color: white;
@@ -61,7 +83,15 @@ footer {
         font-style: normal;
     }
 }
+.suscripcion button:hover{
+    transform: scale(1.1);
+    transition: scale 0.8s;
+    background-color: $color-principal;
+}
 
 .btn-color {
     background-color: #4942E4;
+}
+.btn-color:hover{
+    background-color: $color-principal;
 }

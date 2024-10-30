@@ -43,6 +43,13 @@
     .nav-link {
         align-items: center;
     }
+
+    header {
+        h1 {
+            font-size: 40px;
+            padding-left: 30px;
+        }
+    }
 }
 
 @media screen and (max-width:688px) {
@@ -50,6 +57,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        h1 {
+            font-size: 35px;
+        }
 
         nav {
             ul {
@@ -81,6 +92,11 @@
         flex-direction: column;
         align-items: center;
 
+        h1 {
+            font-size: 30px;
+            padding-left: 50px;
+        }
+
         nav {
             ul {
                 align-items: center;
@@ -94,7 +110,6 @@
     }
 
 }
-
 
 @media screen and (max-width:515px) {
     header {
@@ -157,6 +172,7 @@
         padding-top: 40px;
     }
 }
+
 @media screen and(max-width:1390px) {
     .almacen {
         flex-direction: column;
@@ -165,15 +181,17 @@
         margin-left: 40px;
         padding-top: 40px;
     }
-    .calesita{
-        h1{
+
+    .calesita {
+        h1 {
             margin-bottom: 20px;
         }
     }
-    .card{
+
+    .card {
         margin-top: 40px;
     }
-    
+
 }
 
 @media screen and(max-width:1360px) {
@@ -184,33 +202,29 @@
         margin-left: 40px;
         padding-top: 40px;
     }
-    .calesita{
-        h1{
+
+    .calesita {
+        h1 {
             margin-bottom: 20px;
         }
     }
-    .card{
+
+    .card {
         margin-top: 40px;
     }
-    
+
 }
 
 
 @media screen and(max-width:1190px) {
-    .calesita{
-        h1{
+    .calesita {
+        h1 {
             font-size: 25px;
         }
-        
+
     }
-    
+
 }
-
-
-
-
-
-
 
 @media screen and (max-width:1180px) {
     .almacen {
@@ -219,29 +233,31 @@
         grid-template-rows: auto;
         margin-left: 40px;
     }
-    .calesita{
-        h1{
+
+    .calesita {
+        h1 {
             font-size: 27px;
         }
-        
+
     }
 }
 
-@media screen and (max-width:1170px ) {
-    .card{
+@media screen and (max-width:1170px) {
+    .card {
         margin-top: 20px;
     }
-    
+
 }
+
 @media screen and(max-width:1006px) {
-    .calesita{
-        h1{
+    .calesita {
+        h1 {
             font-size: 25px;
         }
-        
+
     }
 }
-    
+
 
 @media screen and (max-width:920px) {
     .almacen {
@@ -251,45 +267,51 @@
         margin-left: 40px;
         padding-top: 40px;
     }
-    .calesita{
-        h1{
+
+    .calesita {
+        h1 {
             margin-bottom: 20px;
             font-size: 25px;
 
         }
     }
 }
+
 @media screen and(max-width:838px) {
-    .calesita{
-        h1{
+    .calesita {
+        h1 {
             margin-bottom: 20px;
             font-size: 20px;
         }
     }
-    
-    
+
+
 }
+
 @media screen and(max-width:665px) {
-    .calesita{
-        h1{
+    .calesita {
+        h1 {
             font-size: 18px;
         }
     }
-    .card{
+
+    .card {
         margin-top: 30px;
     }
-    
+
 }
+
 @media screen and(max-width:615px) {
-    .calesita{
-        h1{
+    .calesita {
+        h1 {
             font-size: 18px;
         }
     }
-    .card{
+
+    .card {
         margin-top: 30px;
     }
-    
+
 }
 
 
@@ -299,42 +321,47 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-    .calesita{
-        h1{
+
+    .calesita {
+        h1 {
             font-size: 20px;
         }
-        
+
     }
-    .card{
+
+    .card {
         margin-top: 30px;
     }
 }
+
 @media screen and(max-width:630px) {
-    .calesita{
-        h1{
+    .calesita {
+        h1 {
             font-size: 18px;
             margin-bottom: 20px;
         }
-        
+
     }
-    .card{
+
+    .card {
         margin-top: 30px;
     }
-    
+
 }
 
 @media screen and(max-width:620px) {
-    .calesita{
-        h1{
+    .calesita {
+        h1 {
             font-size: 18px;
             margin-bottom: 20px;
         }
-        
+
     }
-    .card{
+
+    .card {
         margin-top: 30px;
     }
-    
+
 }
 
 
@@ -344,17 +371,19 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
-    .calesita{
-        h1{
+
+    .calesita {
+        h1 {
             font-size: 18px;
             margin-bottom: 20px;
         }
-        
+
     }
-    .card{
+
+    .card {
         margin-top: 30px;
     }
-    
+
 }
 
 @media screen and (max-width:1400px) {
@@ -398,32 +427,46 @@
     }
 }
 
-/************ MEDIA QUERYS PAGINA QUIENES SOMOS***********/
-@media screen and (max-width:799px) {
+/************ ************************************************MEDIA QUERYS PAGINA QUIENES SOMOS***************************************/
+@media screen and (max-width:1090px) {
     .quienes {
         p {
             font-size: 30px;
         }
     }
+
 }
 
-.galeria {
-    div {
+@media screen and (max-width:799px) {
+    .quienes {
+        padding: 70px;
+
         p {
-            font-size: 50px;
-            align-items: center;
+            font-size: 30px;
+            padding: 70px;
         }
     }
 }
 
-.opiniones {
-    font-size: 25px;
+@media screen and (max-width:740px) {
+    .quienes {
+        padding: 60px;
+
+        p {
+            font-size: 25px;
+            padding: 60px;
+        }
+    }
+
 }
 
 @media screen and (max-width:627px) {
     .quienes {
+        padding: 50px;
+
         p {
-            font-size: 25px;
+            font-size: 23px;
+            padding: 50px;
         }
     }
 
@@ -436,61 +479,197 @@
         }
     }
 
-    .opiniones {
-        font-size: 25px;
+
+}
+
+@media screen and (max-width:580px) {
+    .quienes {
+        padding: 40px;
+
+        p {
+            font-size: 20px;
+            padding: 40px;
+        }
     }
+
 }
 
 @media screen and (max-width:535px) {
     .quienes {
+        padding: 35px;
+
         p {
+            font-size: 20px;
+            padding: 35px;
+        }
+    }
+
+}
+
+@media screen and (max-width:420px) {
+    .quienes {
+        padding: 25px;
+        p {
+            font-size: 18px;
+            padding: 0;
+        }
+    }
+
+}
+
+/************************************************************************MEDIA QUERYS HERO******************/
+@media screen and (max-width:990px) {
+    .hero {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 26px;
+        }
+
+        a {
+            font-size: 20px;
+            padding: 15px;
+        }
+    }
+
+}
+
+@media screen and (max-width:783px) {
+    .hero {
+        padding: 10px;
+
+        h2 {
+            font-size: 33px;
+        }
+
+        p {
+            font-size: 21px;
+        }
+
+        a {
+            font-size: 17px;
+            padding: 12px;
+        }
+    }
+}
+
+@media screen and (max-width:620px) {
+    .hero {
+        padding: 8px;
+
+        h2 {
+            font-size: 27px;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 19px;
+            padding: 10px;
+        }
+
+        a {
+            font-size: 14px;
+            padding: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .hero {
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        a {
+            font-size: 12px;
+            padding: 9px;
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .hero {
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 17px;
+            padding: 10px;
+        }
+    }
+
+}
+/*****************************************************************************MEDIA QUERYS SECCION OPINIONES INDEX***********/
+@media screen and (max-width:1190px) {
+    .opiniones {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:990px) {
+    .opiniones {
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+}
+
+@media screen and(max-width:780px) {
+    .opiniones {
+        flex-direction: column;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        div {
+            img {
+                width: 170px;
+                height: 170px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .col-md-4 {
+        padding: 20px;
+    }
+
+    .opiniones .sin-padding {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .opiniones {
+        h2 {
             font-size: 25px;
         }
     }
 
+    .col-md-4 {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .col-md-4 {
+        padding: 20px;
+    }
     .opiniones {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width:535px) {
-    .quienes {
-        p {
-            font-size: 23px;
-        }
-    }
-}
-
-/********************MEDIA QUERYS HERO******************/
-@media screen and (max-width:783px) {
-    .hero {
-        p {
-            font-size: 30px;
-        }
-    }
-}
-
-@media screen and (max-width:520px) {
-    .hero {
-        h2 {
-            font-size: 60px;
-        }
-    }
-}
-
-/*****************MEDIA QUERYS SECCION OPINIONES INDEX***********/
-@media screen and(max-width:780px) {
-    .opiniones {
-        div {
-            p {
-                font-size: 25px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width:550px) {
-    .opniones {
         div {
             p {
                 font-size: 20px;
@@ -499,7 +678,162 @@
     }
 }
 
-/*****************MEDIA QUERYS PAGINA SERVICIOS**************/
+@media screen and (max-width:550px) {
+    .opiniones {
+        h2 {
+            font-size: 20px;
+        }
+        div {
+            padding: 10px;
+            p {
+                font-size: 17px;
+            }
+        }
+    }
+
+    .col-md-4 {
+        padding: 20px;
+    }
+
+    .row {
+        padding: 20px;
+    }
+}
+
+/**************************************************************************MQ SECCION TIENDA INDEX****************************************/
+@media screen and (max-width:990px) {
+    .tienda {
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    .tienda {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width:620px) {
+    .tienda {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .tienda {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
+
+/*****************************************************MQ SECCION GALERIA INDEX***********************************/
+@media screen and (max-width:990px) {
+    .galeria {
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    .galeria {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+}
+
+@media screen and (max-width:620px) {
+    .galeria {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .galeria {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}
+
+/**************************************************************************MEDIA QUERYS PAGINA SERVICIOS**************/
+@media screen and (max-width:990px) {
+    .servicio-1 {
+        p {
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
+
+    .servicio-2 {
+        p {
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
+
+    .servicio-3 {
+        p {
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
+
+    .servicio-4 {
+        p {
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
+
+}
+
+@media screen and (max-width:440px) {
+    .servicio-1 {
+        p {
+            font-size: 13px;
+            padding: 8px;
+        }
+    }
+
+    .servicio-2 {
+        p {
+            font-size: 13px;
+            padding: 8px;
+        }
+    }
+
+    .servicio-3 {
+        p {
+            font-size: 13px;
+            padding: 8px;
+        }
+    }
+
+    .servicio-4 {
+        p {
+            font-size: 13px;
+            padding: 8px;
+        }
+    }
+}
+
 @media screen and (max-width:400px) {
     .TOTAL {
         justify-content: space-around;
@@ -515,42 +849,6 @@
     }
 }
 
-.vidaspasadas {
-    div {
-        img {
-            height: 100px;
-            width: 100px;
-            align-items: center;
-        }
-    }
-}
-
-.registros {
-    div {
-        img {
-            height: 100px;
-            width: 100px;
-        }
-    }
-}
-
-.reiki {
-    div {
-        img {
-            height: 100px;
-            width: 100px;
-        }
-    }
-}
-
-.biodecodificacion {
-    div {
-        img {
-            height: 100px;
-            width: 100px;
-        }
-    }
-}
 
 /**************************MEDIA QUERYS COMUNIDAD INDEX****************************************************/
 @media screen and (max-width:570px) {
@@ -594,4 +892,94 @@
         }
     }
 
+}
+
+/**************************************************MQ FAQ Y CONTACTO + FOOTER **************************************************************/
+@media screen and (max-width:990px) {
+    .separacion {
+        h2 {
+            font-size: 35px;
+        }
+    }
+
+    .formulario {
+        label {
+            font-size: 35px;
+        }
+    }
+
+    .suscripcion {
+        label {
+            font-size: 19px;
+        }
+
+        input {
+            font-size: 12px;
+        }
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    .separacion {
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .formulario {
+        label {
+            font-size: 30px;
+        }
+    }
+
+    .suscripcion {
+        label {
+            font-size: 15px;
+        }
+
+        input {
+            font-size: 10px;
+        }
+    }
+
+}
+
+@media screen and (max-width:620px) {
+    .separacion {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .formulario {
+        label {
+            font-size: 35px;
+        }
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .separacion {
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .formulario {
+        label {
+            font-size: 25px;
+        }
+    }
+
+    .suscripcion {
+        label {
+            font-size: 12px;
+        }
+
+        input {
+            font-size: 10px;
+        }
+    }
 }

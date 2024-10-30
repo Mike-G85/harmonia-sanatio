@@ -22,7 +22,7 @@
         font-family: "Architects Daughter", cursive;
         font-weight: 900;
         font-style: normal;
-        font-size: nth($font-zize, 11);
+        font-size: nth($font-zize, 8);
     }
 
     p {
@@ -31,15 +31,15 @@
         font-family: "Bad Script", cursive;
         font-weight: 700;
         font-style: normal;
-        font-size: 55px;
+        font-size: 35px;
     }
 
     a {
-        border: 1.5px solid blueviolet;
+        border: 1.5px solid #4942E4;
         background-color: #4942E4;
         color: white;
-        padding: 5px;
-        margin: 15px;
+        padding: 14px;
+        margin: 12px;
         font-size: nth($font-zize, 5);
         border-radius: 10px;
         font-family: "Cinzel", serif;
@@ -51,10 +51,12 @@
 a:hover {
     background-color: $color-principal;
     border: $color-principal;
-    transform: scale(1.1);
+    transform: scale(1.2);
+    transition: background-color 0.2s ease-in-out;
+    transition: scale 1s;
 }
 
-
+/**********************************************************OPINIONES NUEVO****************************************************************/
 .opiniones {
     background-color: #C0D6E8;
     background: rgb(161, 211, 242);
@@ -70,25 +72,25 @@ a:hover {
         color: white;
     }
 
-    div {
-        display: inline-block;
-        margin: 15px;
+}
 
-        img {
-            height: 90px;
-            width: 90px;
-        }
+.global{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    p{
+        font-size: 20px;
+        font-weight: 100;
 
-        p {
-            margin-left: 15px;
-            font-size: nth($font-zize, 6);
-            font-weight: 300;
-            color: rgba(0, 0, 0, 0.486);
-            font-family: "Bad Script", cursive;
-            font-style: normal;
-        }
     }
 }
+.col-md-4{
+    padding: 20px;
+}
+
+/******************************************************************************************************************************************/
 
 .tienda {
     background-color: whitesmoke;
@@ -133,10 +135,13 @@ a:hover {
 }
 
 .tienda div a:hover {
-    background-color: $color-principal
+    background-color: $color-principal;
+    border-radius: 10px
+    
 }
 
 .contenedor-flex {
+    padding: 20px;
     @include contenedor(flex, space-around, center, wrap, 100%);
     div{
         p{
@@ -150,12 +155,16 @@ a:hover {
             font-weight: 400;
             font-style: normal;
             font-size: 15px;
+            border-radius: 10px;
+            padding: 10px;
         }
     }
 }
 
 .contenedor-flex div:hover {
     transform: scale(1.1);
+    transition: scale 0.5s;
+    animation: scaling 0.5s ease-in-out;
     box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
     -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
     -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
@@ -165,16 +174,15 @@ a:hover {
 
 .tarjeta-1 {
     @extend %ext-tarjetas;
-
-    img {
-        margin-top: 15px;
+    transition: scale 1.5s;
+        img {
+            margin-top: 15px;
     }
-
 }
+
 
 .tarjeta-2 {
     @extend %ext-tarjetas;
-
     img {
         margin-top: 15px;
     }
@@ -216,6 +224,7 @@ a:hover {
     }
 
     div {
+        padding: 20px;
         img {
             height: 500px;
             width: 500px;
@@ -279,159 +288,58 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 80px;
 
     p {
         font-family: "Bad Script", cursive;
         font-weight: 400;
         font-style: normal;
-        font-size: nth($font-zize, 7);
+        font-size: nth($font-zize, 6);
         color: whitesmoke;
         text-align: center;
+        padding: 80px;
     }
 }
 
 /******************************PAGINA SERVICIOS*************************/
 .TOTAL {
     background-color: $color-secundario;
-
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: nth($font-zize, 4);
-    width: 100%;
+    flex-wrap: wrap;
+    padding: 40px;
 
-    p {
-        text-align: left;
-    }
-}
 
-.vidaspasadas {
-    border: 1px solid grey;
-    div {
-        margin-left: 50px;
-
-        h2 {
-            font-size: nth($font-zize, 4);
-        }
-
-        img {
-            width: 150px;
-            height: 150px;
-        }
+    img{
+        height: 300px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 
-    div {
-        p {
-            font-size: nth($font-zize, 3);
-            font-family: "Roboto Condensed", sans-serif;
-            font-optical-sizing: auto;
-            font-style: normal;
-            font-weight: 300;
-        }
+}
+.servicio-1{
+    @extend %ext-serv;
+    img{
+        height: 450px
     }
 }
-
-.registros {
-    border: 1px solid grey;
-    div {
-        margin-left: 50px;
-
-        h2 {
-            font-size: nth($font-zize, 4);
-        }
-
-        img {
-            width: 150px;
-            height: 150px;
-        }
-    }
-
-    div {
-        p {
-            font-size: nth($font-zize, 3);
-            font-family: "Roboto Condensed", sans-serif;
-            font-optical-sizing: auto;
-            font-style: normal;
-            font-weight: 300;
-        }
+.servicio-2{
+    @extend %ext-serv;
+    img{
+        height: 450px
     }
 }
-
-.reiki {
-    border: 1px solid grey;
-
-    div {
-        margin-left: 50px;
-
-        h2 {
-            font-size: 20px;
-        }
-
-        img {
-            width: 150px;
-            height: 150px;
-        }
-    }
-
-    div {
-        p {
-            font-size: nth($font-zize, 3);
-            font-family: "Roboto Condensed", sans-serif;
-            font-optical-sizing: auto;
-            font-style: normal;
-            font-weight: 300;
-        }
+.servicio-3{
+    @extend %ext-serv;
+    img{
+        height: 450px
     }
 }
-
-.biodecodificacion {
-    border: 1px  solid grey;
-    div {
-        margin-left: 50px;
-
-        h2 {
-            font-size: nth($font-zize, 4);
-        }
-
-        img {
-            width: 150px;
-            height: 150px;
-        }
-    }
-
-    div {
-        p {
-            font-size: nth($font-zize, 3);
-            font-family: "Roboto Condensed", sans-serif;
-            font-optical-sizing: auto;
-            font-style: normal;
-            font-weight: 300;
-        }
-    }
-}
-
-.servicio-1 {
-    @extend %ext-flex;
-}
-
-.servicio-2 {
-    @extend %ext-flex;
-}
-
-.servicio-3 {
-    @extend %ext-flex;
-}
-
-.servicio-4 {
-    @extend %ext-flex;
-}
-
-.texto {
-    p {
-        font-size: nth($font-zize, 3);
-        color: black;
-        font-weight: 450;
-        font-family: "EB Garamond", serif;
+.servicio-4{
+    @extend %ext-serv;
+    img{
+        height: 450px
     }
 }
 
@@ -488,8 +396,22 @@ a:hover {
             font-style: normal;
             font-size: 15px;
             color: black;
-        }    
+        }  
+        a{
+            border: 1.5px solid #4942E4;
+            border-radius: 10px;
+            background-color: #4942E4;
+            color: white;
+            padding: 12px;
+            margin: 10px;
+        }
     }
+}
+.btna:hover{
+background-color: $color-principal;
+border: 1.5px solid$color-principal;
+transform: 1.1;
+
 }
 
 .almacen div:hover:not(.card-body>img) {
@@ -511,6 +433,8 @@ a:hover {
     overflow: hidden;
     text-align: center;
     margin: auto;
+    border-radius: 10px;
+
 }
 
 /*****************************PAGINA FAQ Y CONTACTO*********************/
