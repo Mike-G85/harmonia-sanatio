@@ -28,6 +28,13 @@ $color-terciario: #E2DAD6;
     flex-direction: row;
     align-items: center;
 }
+%ext-comunidad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
 
 
 $font-zize: 14px, 15px, 20px, 23px, 25px, 30px, 40px, 50px, 60px, 90px, 75px;

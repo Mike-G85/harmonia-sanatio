@@ -1,4 +1,4 @@
-/************** MEDIA QUERYS HEADER ************/
+/********************************************************************* MEDIA QUERYS HEADER **************************************************************/
 @media screen and(max-width:1135px) {
     .contenedor-flex {
         flex-direction: column;
@@ -60,6 +60,7 @@
 
         h1 {
             font-size: 35px;
+            padding-left: 30px;
         }
 
         nav {
@@ -91,10 +92,8 @@
     header {
         flex-direction: column;
         align-items: center;
-
         h1 {
             font-size: 30px;
-            padding-left: 50px;
         }
 
         nav {
@@ -162,7 +161,7 @@
     }
 }
 
-/***********MEDIA QUERYS PAGINA TIENDA COMPLETA*****************/
+/****************************************************MEDIA QUERYS PAGINA TIENDA COMPLETA*****************************************/
 @media screen and(max-width:1400px) {
     .almacen {
         flex-direction: column;
@@ -470,14 +469,6 @@
         }
     }
 
-    .galeria {
-        div {
-            p {
-                font-size: 25px;
-                align-items: center;
-            }
-        }
-    }
 
 
 }
@@ -517,7 +508,7 @@
 
 }
 
-/************************************************************************MEDIA QUERYS HERO******************/
+/************************************************************************MEDIA QUERYS HERO*************************************************************/
 @media screen and (max-width:990px) {
     .hero {
         h2 {
@@ -565,8 +556,8 @@
         }
 
         p {
-            font-size: 19px;
-            padding: 10px;
+            font-size: 20px;
+
         }
 
         a {
@@ -580,7 +571,7 @@
 @media screen and (max-width:550px) {
     .hero {
         h2 {
-            font-size: 25px;
+            font-size: 23px;
         }
 
         p {
@@ -597,17 +588,17 @@
 @media screen and (max-width:400px) {
     .hero {
         h2 {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         p {
-            font-size: 17px;
+            font-size: 15px;
             padding: 10px;
         }
     }
 
 }
-/*****************************************************************************MEDIA QUERYS SECCION OPINIONES INDEX***********/
+/*****************************************************************************MEDIA QUERYS SECCION OPINIONES INDEX*****************************************/
 @media screen and (max-width:1190px) {
     .opiniones {
         flex-direction: column;
@@ -639,7 +630,7 @@
             }
 
             p {
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
@@ -672,7 +663,7 @@
     .opiniones {
         div {
             p {
-                font-size: 20px;
+                font-size: 13px;
             }
         }
     }
@@ -686,7 +677,7 @@
         div {
             padding: 10px;
             p {
-                font-size: 17px;
+                font-size: 13px;
             }
         }
     }
@@ -736,29 +727,118 @@
     }
 }
 
-/*****************************************************MQ SECCION GALERIA INDEX***********************************/
+/*****************************************************MQ SECCION GALERIA INDEX***********************************************************************/
+@media screen and (max-width:1090px) {
+    .comunidad-1{
+        h3{
+            font-size: 26px;
+        }
+    }
+    .comunidad-2{
+        h3{
+            font-size: 26px;
+        }
+    }
+    
+}
+
 @media screen and (max-width:990px) {
     .galeria {
+        img{
+            flex-wrap: wrap;
+        }
         h2 {
             font-size: 35px;
         }
     }
+.comunidad-1{
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 11px;
+        padding: 30px;
+    }
+}
+.comunidad-2{
+    h3{
+        font-size: 22px;
+    }
+    p{
+        font-size: 11px;
+        padding: 30px;
+    }
+}
 
+}
+@media screen and (max-width:860px) {
+    .comunidad-1{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .comunidad-2{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    
 }
 
 @media screen and (max-width:780px) {
     .galeria {
+        img{
+            flex-wrap: wrap;
+        }
         h2 {
             font-size: 30px;
         }
     }
+.comunidad-1{
 
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+        padding: 50px;
+    }
 }
+.comunidad-2{
+
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+        padding: 50px;
+        text-align: center;
+    }
+}
+}
+
 
 @media screen and (max-width:620px) {
     .galeria {
+        img{
+            flex-wrap: wrap;
+        }
         h2 {
             font-size: 25px;
+        }
+    }
+    .comunidad-1{
+        h3{
+            font-size: 15px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+    .comunidad-2{
+        h3{
+            font-size: 15px;
+        }
+        p{
+            font-size: 10px;
         }
     }
 
@@ -766,13 +846,65 @@
 
 @media screen and (max-width:550px) {
     .galeria {
+        img{
+            flex-wrap: wrap;
+        }
         h2 {
             font-size: 20px;
         }
     }
+    .comunidad-1{
+        h3{
+            font-size: 15px;
+        }
+        p{
+            padding: 30px;
+        }
+    }
+    .comunidad-2{
+        h3{
+            font-size: 15px;
+        }
+        p{
+            padding: 30px;
+        }
+    }
 }
 
-/**************************************************************************MEDIA QUERYS PAGINA SERVICIOS**************/
+@media screen and (max-width:570px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+@media screen and (max-width:535px) {
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+    .comunidad-1{
+        h3{
+            font-size: 15px;
+        }
+    }
+    .comunidad-2{
+        h3{
+            font-size: 15px;
+        }
+    }
+}
+
+/**************************************************************************MEDIA QUERYS PAGINA SERVICIOS*******************************/
+@media screen and (max-width:1150px) {
+    .TOTAL{
+        flex-direction: column; 
+    }
+    
+}
+
 @media screen and (max-width:990px) {
     .servicio-1 {
         p {
@@ -840,6 +972,30 @@
     }
 }
 
+@media screen and (max-width:380px) {
+    .servicio-1{
+        p{
+            font-size: 12px;
+        }
+    }
+    .servicio-2{
+        p{
+            font-size: 12px;
+        }
+    }
+    .servicio-3{
+        p{
+            font-size: 12px;
+        }
+    }
+    .servicio-4{
+        p{
+            font-size: 12px;
+        }
+    }
+    
+}
+
 @media screen and (max-width:370px) {
     .TOTAL {
         justify-content: space-around;
@@ -847,52 +1003,12 @@
         align-items: center;
         margin: 0px;
     }
-}
-
-
-/**************************MEDIA QUERYS COMUNIDAD INDEX****************************************************/
-@media screen and (max-width:570px) {
-    .galeria {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .galeria {
-        div {
-            p {
-                font-size: 35px;
-            }
-        }
-    }
 
 }
 
-@media screen and (max-width:799px) {
-    .galeria {
-        div {
-            p {
-                font-size: 50px;
-                align-items: center;
-            }
-        }
-    }
-}
 
-@media screen and (max-width:535px) {
-    .galeria {
-        flex-direction: column;
-        align-items: center;
-    }
+/**************************************************************MEDIA QUERYS COMUNIDAD INDEX****************************************************/
 
-    .galeria {
-        div {
-            p {
-                font-size: 40px;
-            }
-        }
-    }
-
-}
 
 /**************************************************MQ FAQ Y CONTACTO + FOOTER **************************************************************/
 @media screen and (max-width:990px) {
