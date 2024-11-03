@@ -62,16 +62,17 @@ header h1 {
   font-style: normal;
   font-size: 14px; }
 
-/********************* PAGINA INDEX*********************************/
+/*************************************************************************** PAGINA INDEX******************************************************************/
 .hero {
   text-align: center;
   height: 90vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.411)), url("../img/hero-nuevo-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.411)), url("../img/hero-nuevo-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,7 +110,7 @@ a:hover {
   border: #759eb8;
   transform: scale(1.2);
   transition: background-color 1s ease-in-out;
-  transition: 0.8s; }
+  transition: 0.9s; }
 
 /**********************************************************OPINIONES NUEVO****************************************************************/
 .opiniones {
@@ -124,7 +125,8 @@ a:hover {
     font-weight: 350;
     font-style: normal;
     font-size: 40px;
-    color: white; }
+    color: white;
+    padding: 15px; }
 
 .global {
   display: flex;
@@ -134,21 +136,20 @@ a:hover {
   padding-top: 20px; }
   .global p {
     font-size: 17px;
-    font-weight: 100; }
+    font-weight: 100;
+    font-style: oblique; }
 
 .text-body-secondary {
   font-weight: 700; }
 
 .nombre {
-  font-size: 25px; }
-
-.card-body {
-  transform: none; }
+  font-size: 25px;
+  font-style: oblique; }
 
 .col-md-4 {
   padding: 20px; }
 
-/*******************************************************************************************************************************************************/
+/******************************************************SECCION NUESTRAS TERAPIAS INDEX******************************************************************************/
 .tienda {
   background-color: whitesmoke;
   width: 100%; }
@@ -162,7 +163,8 @@ a:hover {
     font-family: "Cinzel", serif;
     font-weight: 350;
     font-style: normal;
-    font-size: 40px; }
+    font-size: 40px;
+    padding: 15px; }
   .tienda div {
     text-align: center; }
     .tienda div img {
@@ -230,7 +232,7 @@ a:hover {
 /******************************************************************************GALERIA INDEX*********************************************************************/
 .galeria {
   background-color: #ede3e9;
-  background: linear-gradient(#add1e7 25%, #a6bcca 70%, #aacbd1 100%);
+  background: linear-gradient(#dcebf5 25%, #c4d9e5 70%, #dceef1 100%);
   width: 100%; }
   .galeria h2 {
     background-color: #759eb8;
@@ -240,34 +242,39 @@ a:hover {
     font-weight: 350;
     font-style: normal;
     font-size: 40px;
-    color: white; }
+    color: white;
+    padding: 15px; }
 
 .comunidad-1 {
   font-family: "Cinzel", serif;
   font-weight: 600;
   font-style: oblique; }
   .comunidad-1 img {
-    width: 40%;
+    width: 45%;
     padding-bottom: 20px;
     margin-top: 20px;
-    padding-left: 30px; }
+    padding-left: 30px;
+    border-radius: 20px; }
   .comunidad-1 h3 {
     font-size: 30px;
     width: 50%;
     font-weight: 800; }
   .comunidad-1 p {
     font-size: 14px;
-    padding: 60px; }
+    padding: 60px;
+    font-weight: 600;
+    font-style: oblique; }
 
 .comunidad-2 {
   font-family: "Cinzel", serif;
   font-weight: 600;
   font-style: oblique; }
   .comunidad-2 img {
-    width: 40%;
+    width: 50%;
     padding-bottom: 20px;
     margin-top: 20px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    border-radius: 20px; }
   .comunidad-2 h3 {
     font-size: 25px;
     width: 50%;
@@ -275,7 +282,8 @@ a:hover {
     margin-top: 15px; }
   .comunidad-2 p {
     font-size: 14px;
-    padding: 40px; }
+    padding: 40px;
+    font-weight: 600; }
 
 .encuentro {
   display: flex;
@@ -301,7 +309,7 @@ a:hover {
     font-family: "Bad Script", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 25px;
     color: whitesmoke;
     text-align: center;
     padding: 80px; }
@@ -331,7 +339,7 @@ a:hover {
 .servicio-4 img {
   height: 450px; }
 
-/***************************************************************************PAGINA TIENDA***************************************************************************/
+/***************************************************************************PAGINA TIENDA**************************************************************************************/
 .calesita {
   height: 30vh; }
   .calesita h1 {
@@ -344,7 +352,8 @@ a:hover {
     text-align: center;
     font-size: 35px;
     position: relative;
-    z-index: 1; }
+    z-index: 1;
+    padding: 15px; }
   .calesita img {
     width: 100%;
     height: 200px; }
@@ -385,13 +394,7 @@ a:hover {
   border: 1.5px solid #759eb8;
   transform: 1.1; }
 
-.almacen div:hover:not(.card-body > img) {
-  transform: scale(1.1);
-  box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
-  -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
-  -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52); }
-
-.card:hover {
+.card:hover:not(.card-body > img) {
   transform: scale(1.1);
   transition: 1s;
   box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
@@ -404,7 +407,7 @@ a:hover {
   margin: auto;
   border-radius: 10px; }
 
-/****************************************************************************************PAGINA FAQ Y CONTACTO********************************************************/
+/****************************************************************************************PAGINA FAQ Y CONTACTO***********************************************************************/
 .separacion {
   background-color: #7392b7;
   display: flex;
@@ -496,19 +499,19 @@ footer {
     transition: 0.8s; }
   .suscripcion label {
     color: white;
-    font-size: 23px;
+    font-size: 15px;
     font-family: "Cinzel", serif;
     font-weight: 350;
     font-style: normal; }
   .suscripcion input {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Cinzel", serif;
     font-weight: 350;
     font-style: normal; }
 
 .suscripcion button:hover {
   transform: scale(1.1);
-  transition: scale 0.8s; }
+  transition: scale 0.7s; }
 
 .btn-color {
   background-color: #4942E4; }
@@ -530,6 +533,9 @@ footer {
 .fixed:hover {
   transform: scale(1.3);
   transition: 1s; }
+
+.mb-3 {
+  padding-top: 0; }
 
 /********************************************************************* MEDIA QUERYS HEADER **************************************************************/
 @media screen and (max-width: 1135px) {
@@ -618,7 +624,350 @@ footer {
         flex-direction: column;
         align-items: center; } }
 
-/****************************************************MEDIA QUERYS PAGINA TIENDA COMPLETA*****************************************/
+/*******************************************************MEDIA QUERYS HERO SECCION INDEX*********************************************************************************************/
+@media screen and (max-width: 990px) {
+  .hero h2 {
+    font-size: 40px; }
+  .hero p {
+    font-size: 26px; }
+  .hero a {
+    font-size: 20px;
+    padding: 15px; } }
+
+@media screen and (max-width: 783px) {
+  .hero {
+    padding: 10px; }
+    .hero h2 {
+      font-size: 33px; }
+    .hero p {
+      font-size: 21px; }
+    .hero a {
+      font-size: 17px;
+      padding: 12px; } }
+
+@media screen and (max-width: 620px) {
+  .hero {
+    padding: 8px; }
+    .hero h2 {
+      font-size: 27px;
+      padding: 10px; }
+    .hero p {
+      font-size: 20px; }
+    .hero a {
+      font-size: 14px;
+      padding: 10px; } }
+
+@media screen and (max-width: 550px) {
+  .hero h2 {
+    font-size: 23px; }
+  .hero p {
+    font-size: 18px; }
+  .hero a {
+    font-size: 12px;
+    padding: 9px; } }
+
+@media screen and (max-width: 400px) {
+  .hero h2 {
+    font-size: 18px; }
+  .hero p {
+    font-size: 15px;
+    padding: 10px; } }
+
+/*****************************************************************************MEDIA QUERYS SECCION OPINIONES INDEX*******************************************************************/
+@media screen and (max-width: 1190px) {
+  .opiniones {
+    flex-direction: column; } }
+
+@media screen and (max-width: 990px) {
+  .opiniones h2 {
+    font-size: 35px; } }
+
+@media screen and (max-width: 780px) {
+  .opiniones {
+    flex-direction: column; }
+    .opiniones h2 {
+      font-size: 30px; }
+    .opiniones div img {
+      width: 170px;
+      height: 170px; }
+    .opiniones div p {
+      font-size: 15px; }
+  .col-md-4 {
+    padding: 20px; }
+  .opiniones .sin-padding {
+    padding: 0; } }
+
+@media screen and (max-width: 620px) {
+  .opiniones h2 {
+    font-size: 25px; }
+  .col-md-4 {
+    padding: 20px; } }
+
+@media screen and (max-width: 580px) {
+  .col-md-4 {
+    padding: 20px; }
+  .opiniones div p {
+    font-size: 13px; } }
+
+@media screen and (max-width: 550px) {
+  .opiniones h2 {
+    font-size: 20px; }
+  .opiniones div {
+    padding: 10px; }
+    .opiniones div p {
+      font-size: 13px; }
+  .col-md-4 {
+    padding: 20px; }
+  .row {
+    padding: 20px; } }
+
+/**************************************************************************MQ SECCION TIENDA INDEX************************************************************************************/
+@media screen and (max-width: 1140px) {
+  .contenedor-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center; } }
+
+@media screen and (max-width: 990px) {
+  .tienda h2 {
+    font-size: 35px; } }
+
+@media screen and (max-width: 780px) {
+  .tienda h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 620px) {
+  .tienda h2 {
+    font-size: 25px; } }
+
+@media screen and (max-width: 590px) {
+  .contenedor-flex {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; } }
+
+@media screen and (max-width: 550px) {
+  .tienda h2 {
+    font-size: 20px; } }
+
+/*****************************************************MQ SECCION GALERIA INDEX***********************************************************************/
+@media screen and (max-width: 1090px) {
+  .comunidad-1 h3 {
+    font-size: 26px; }
+  .comunidad-2 h3 {
+    font-size: 26px; } }
+
+@media screen and (max-width: 990px) {
+  .galeria img {
+    flex-wrap: wrap; }
+  .galeria h2 {
+    font-size: 35px; }
+  .comunidad-1 h3 {
+    font-size: 22px; }
+  .comunidad-1 p {
+    font-size: 11px;
+    padding: 30px; }
+  .comunidad-2 h3 {
+    font-size: 22px; }
+  .comunidad-2 p {
+    font-size: 11px;
+    padding: 30px; } }
+
+@media screen and (max-width: 860px) {
+  .comunidad-1 {
+    flex-direction: column;
+    flex-wrap: wrap; }
+    .comunidad-1 img {
+      height: 300px;
+      width: 400px; }
+  .comunidad-2 {
+    flex-direction: column-reverse;
+    flex-wrap: wrap; }
+    .comunidad-2 img {
+      height: 300px;
+      width: 400px; } }
+
+@media screen and (max-width: 780px) {
+  .galeria img {
+    flex-wrap: wrap; }
+  .galeria h2 {
+    font-size: 30px; }
+  .comunidad-1 h3 {
+    font-size: 15px; }
+  .comunidad-1 p {
+    font-size: 10px;
+    padding: 50px;
+    padding-top: 10px;
+    text-align: center; }
+  .comunidad-2 h3 {
+    font-size: 15px; }
+  .comunidad-2 p {
+    font-size: 10px;
+    padding: 50px;
+    text-align: center;
+    padding-top: 10px; } }
+
+@media screen and (max-width: 620px) {
+  .galeria img {
+    flex-wrap: wrap; }
+  .galeria h2 {
+    font-size: 25px; }
+  .comunidad-1 h3 {
+    font-size: 15px; }
+  .comunidad-1 p {
+    font-size: 10px; }
+  .comunidad-2 h3 {
+    font-size: 15px; }
+  .comunidad-2 p {
+    font-size: 10px; } }
+
+@media screen and (max-width: 550px) {
+  .galeria img {
+    flex-wrap: wrap; }
+  .galeria h2 {
+    font-size: 20px; }
+  .comunidad-1 h3 {
+    font-size: 15px; }
+  .comunidad-1 p {
+    padding: 30px; }
+  .comunidad-2 h3 {
+    font-size: 15px; }
+  .comunidad-2 p {
+    padding: 30px; } }
+
+@media screen and (max-width: 570px) {
+  .galeria {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 535px) {
+  .galeria {
+    flex-direction: column;
+    align-items: center; }
+  .comunidad-1 h3 {
+    font-size: 15px; }
+  .comunidad-2 h3 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 460px) {
+  .comunidad-1 img {
+    height: 250px;
+    width: 340px; }
+  .comunidad-2 img {
+    height: 250px;
+    width: 340px; } }
+
+@media screen and (max-width: 370px) {
+  .comunidad-1 img {
+    height: 180px;
+    width: 260px; }
+  .comunidad-2 img {
+    height: 180px;
+    width: 260px; } }
+
+/*********************************************************MEDIA QUERIES PAGINA QUIENES SOMOS**********************************************************************************/
+@media screen and (max-width: 1090px) {
+  .quienes p {
+    font-size: 20px; } }
+
+@media screen and (max-width: 799px) {
+  .quienes {
+    padding: 70px; }
+    .quienes p {
+      font-size: 20px;
+      padding: 70px; } }
+
+@media screen and (max-width: 740px) {
+  .quienes {
+    padding: 60px; }
+    .quienes p {
+      font-size: 18px;
+      padding: 60px; } }
+
+@media screen and (max-width: 627px) {
+  .quienes {
+    padding: 50px; }
+    .quienes p {
+      font-size: 16px;
+      padding: 50px; } }
+
+@media screen and (max-width: 580px) {
+  .quienes {
+    padding: 40px; }
+    .quienes p {
+      font-size: 14px;
+      padding: 40px; } }
+
+@media screen and (max-width: 535px) {
+  .quienes {
+    padding: 35px; }
+    .quienes p {
+      font-size: 14px;
+      padding: 35px; } }
+
+@media screen and (max-width: 420px) {
+  .quienes {
+    padding: 25px; }
+    .quienes p {
+      font-size: 14px;
+      padding: 0; } }
+
+/**************************************************************************MEDIA QUERYS PAGINA SERVICIOS*******************************/
+@media screen and (max-width: 1150px) {
+  .TOTAL {
+    flex-direction: column; } }
+
+@media screen and (max-width: 990px) {
+  .servicio-1 p {
+    font-size: 14px;
+    padding: 8px; }
+  .servicio-2 p {
+    font-size: 14px;
+    padding: 8px; }
+  .servicio-3 p {
+    font-size: 14px;
+    padding: 8px; }
+  .servicio-4 p {
+    font-size: 14px;
+    padding: 8px; } }
+
+@media screen and (max-width: 440px) {
+  .servicio-1 p {
+    font-size: 13px;
+    padding: 8px; }
+  .servicio-2 p {
+    font-size: 13px;
+    padding: 8px; }
+  .servicio-3 p {
+    font-size: 13px;
+    padding: 8px; }
+  .servicio-4 p {
+    font-size: 13px;
+    padding: 8px; } }
+
+@media screen and (max-width: 400px) {
+  .TOTAL {
+    justify-content: space-around; } }
+
+@media screen and (max-width: 380px) {
+  .servicio-1 p {
+    font-size: 12px; }
+  .servicio-2 p {
+    font-size: 12px; }
+  .servicio-3 p {
+    font-size: 12px; }
+  .servicio-4 p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 370px) {
+  .TOTAL {
+    justify-content: space-around;
+    font-size: 15px;
+    align-items: center;
+    margin: 0px; } }
+
+/****************************************************MEDIA QUERYS PAGINA TIENDA COMPLETA********************************************************************************************/
 @media screen and (max-width: 1400px) {
   .almacen {
     flex-direction: column;
@@ -764,312 +1113,6 @@ footer {
   .card {
     margin-top: 30px; } }
 
-/************ ************************************************MEDIA QUERYS PAGINA QUIENES SOMOS***************************************/
-@media screen and (max-width: 1090px) {
-  .quienes p {
-    font-size: 30px; } }
-
-@media screen and (max-width: 799px) {
-  .quienes {
-    padding: 70px; }
-    .quienes p {
-      font-size: 30px;
-      padding: 70px; } }
-
-@media screen and (max-width: 740px) {
-  .quienes {
-    padding: 60px; }
-    .quienes p {
-      font-size: 25px;
-      padding: 60px; } }
-
-@media screen and (max-width: 627px) {
-  .quienes {
-    padding: 50px; }
-    .quienes p {
-      font-size: 23px;
-      padding: 50px; } }
-
-@media screen and (max-width: 580px) {
-  .quienes {
-    padding: 40px; }
-    .quienes p {
-      font-size: 20px;
-      padding: 40px; } }
-
-@media screen and (max-width: 535px) {
-  .quienes {
-    padding: 35px; }
-    .quienes p {
-      font-size: 20px;
-      padding: 35px; } }
-
-@media screen and (max-width: 420px) {
-  .quienes {
-    padding: 25px; }
-    .quienes p {
-      font-size: 18px;
-      padding: 0; } }
-
-/************************************************************************MEDIA QUERYS HERO*************************************************************/
-@media screen and (max-width: 990px) {
-  .hero h2 {
-    font-size: 40px; }
-  .hero p {
-    font-size: 26px; }
-  .hero a {
-    font-size: 20px;
-    padding: 15px; } }
-
-@media screen and (max-width: 783px) {
-  .hero {
-    padding: 10px; }
-    .hero h2 {
-      font-size: 33px; }
-    .hero p {
-      font-size: 21px; }
-    .hero a {
-      font-size: 17px;
-      padding: 12px; } }
-
-@media screen and (max-width: 620px) {
-  .hero {
-    padding: 8px; }
-    .hero h2 {
-      font-size: 27px;
-      padding: 10px; }
-    .hero p {
-      font-size: 20px; }
-    .hero a {
-      font-size: 14px;
-      padding: 10px; } }
-
-@media screen and (max-width: 550px) {
-  .hero h2 {
-    font-size: 23px; }
-  .hero p {
-    font-size: 18px; }
-  .hero a {
-    font-size: 12px;
-    padding: 9px; } }
-
-@media screen and (max-width: 400px) {
-  .hero h2 {
-    font-size: 18px; }
-  .hero p {
-    font-size: 15px;
-    padding: 10px; } }
-
-/*****************************************************************************MEDIA QUERYS SECCION OPINIONES INDEX*****************************************/
-@media screen and (max-width: 1190px) {
-  .opiniones {
-    flex-direction: column; } }
-
-@media screen and (max-width: 990px) {
-  .opiniones h2 {
-    font-size: 35px; } }
-
-@media screen and (max-width: 780px) {
-  .opiniones {
-    flex-direction: column; }
-    .opiniones h2 {
-      font-size: 30px; }
-    .opiniones div img {
-      width: 170px;
-      height: 170px; }
-    .opiniones div p {
-      font-size: 15px; }
-  .col-md-4 {
-    padding: 20px; }
-  .opiniones .sin-padding {
-    padding: 0; } }
-
-@media screen and (max-width: 620px) {
-  .opiniones h2 {
-    font-size: 25px; }
-  .col-md-4 {
-    padding: 20px; } }
-
-@media screen and (max-width: 580px) {
-  .col-md-4 {
-    padding: 20px; }
-  .opiniones div p {
-    font-size: 13px; } }
-
-@media screen and (max-width: 550px) {
-  .opiniones h2 {
-    font-size: 20px; }
-  .opiniones div {
-    padding: 10px; }
-    .opiniones div p {
-      font-size: 13px; }
-  .col-md-4 {
-    padding: 20px; }
-  .row {
-    padding: 20px; } }
-
-/**************************************************************************MQ SECCION TIENDA INDEX****************************************/
-@media screen and (max-width: 990px) {
-  .tienda h2 {
-    font-size: 35px; } }
-
-@media screen and (max-width: 780px) {
-  .tienda h2 {
-    font-size: 30px; } }
-
-@media screen and (max-width: 620px) {
-  .tienda h2 {
-    font-size: 25px; } }
-
-@media screen and (max-width: 550px) {
-  .tienda h2 {
-    font-size: 20px; } }
-
-/*****************************************************MQ SECCION GALERIA INDEX***********************************************************************/
-@media screen and (max-width: 1090px) {
-  .comunidad-1 h3 {
-    font-size: 26px; }
-  .comunidad-2 h3 {
-    font-size: 26px; } }
-
-@media screen and (max-width: 990px) {
-  .galeria img {
-    flex-wrap: wrap; }
-  .galeria h2 {
-    font-size: 35px; }
-  .comunidad-1 h3 {
-    font-size: 22px; }
-  .comunidad-1 p {
-    font-size: 11px;
-    padding: 30px; }
-  .comunidad-2 h3 {
-    font-size: 22px; }
-  .comunidad-2 p {
-    font-size: 11px;
-    padding: 30px; } }
-
-@media screen and (max-width: 860px) {
-  .comunidad-1 {
-    flex-direction: column;
-    flex-wrap: wrap; }
-  .comunidad-2 {
-    flex-direction: column-reverse;
-    flex-wrap: wrap; } }
-
-@media screen and (max-width: 780px) {
-  .galeria img {
-    flex-wrap: wrap; }
-  .galeria h2 {
-    font-size: 30px; }
-  .comunidad-1 h3 {
-    font-size: 15px; }
-  .comunidad-1 p {
-    font-size: 10px;
-    padding: 50px; }
-  .comunidad-2 h3 {
-    font-size: 15px; }
-  .comunidad-2 p {
-    font-size: 10px;
-    padding: 50px;
-    text-align: center; } }
-
-@media screen and (max-width: 620px) {
-  .galeria img {
-    flex-wrap: wrap; }
-  .galeria h2 {
-    font-size: 25px; }
-  .comunidad-1 h3 {
-    font-size: 15px; }
-  .comunidad-1 p {
-    font-size: 10px; }
-  .comunidad-2 h3 {
-    font-size: 15px; }
-  .comunidad-2 p {
-    font-size: 10px; } }
-
-@media screen and (max-width: 550px) {
-  .galeria img {
-    flex-wrap: wrap; }
-  .galeria h2 {
-    font-size: 20px; }
-  .comunidad-1 h3 {
-    font-size: 15px; }
-  .comunidad-1 p {
-    padding: 30px; }
-  .comunidad-2 h3 {
-    font-size: 15px; }
-  .comunidad-2 p {
-    padding: 30px; } }
-
-@media screen and (max-width: 570px) {
-  .galeria {
-    flex-direction: column;
-    align-items: center; } }
-
-@media screen and (max-width: 535px) {
-  .galeria {
-    flex-direction: column;
-    align-items: center; }
-  .comunidad-1 h3 {
-    font-size: 15px; }
-  .comunidad-2 h3 {
-    font-size: 15px; } }
-
-/**************************************************************************MEDIA QUERYS PAGINA SERVICIOS*******************************/
-@media screen and (max-width: 1150px) {
-  .TOTAL {
-    flex-direction: column; } }
-
-@media screen and (max-width: 990px) {
-  .servicio-1 p {
-    font-size: 14px;
-    padding: 8px; }
-  .servicio-2 p {
-    font-size: 14px;
-    padding: 8px; }
-  .servicio-3 p {
-    font-size: 14px;
-    padding: 8px; }
-  .servicio-4 p {
-    font-size: 14px;
-    padding: 8px; } }
-
-@media screen and (max-width: 440px) {
-  .servicio-1 p {
-    font-size: 13px;
-    padding: 8px; }
-  .servicio-2 p {
-    font-size: 13px;
-    padding: 8px; }
-  .servicio-3 p {
-    font-size: 13px;
-    padding: 8px; }
-  .servicio-4 p {
-    font-size: 13px;
-    padding: 8px; } }
-
-@media screen and (max-width: 400px) {
-  .TOTAL {
-    justify-content: space-around; } }
-
-@media screen and (max-width: 380px) {
-  .servicio-1 p {
-    font-size: 12px; }
-  .servicio-2 p {
-    font-size: 12px; }
-  .servicio-3 p {
-    font-size: 12px; }
-  .servicio-4 p {
-    font-size: 12px; } }
-
-@media screen and (max-width: 370px) {
-  .TOTAL {
-    justify-content: space-around;
-    font-size: 15px;
-    align-items: center;
-    margin: 0px; } }
-
-/**************************************************************MEDIA QUERYS COMUNIDAD INDEX****************************************************/
 /**************************************************MQ FAQ Y CONTACTO + FOOTER **************************************************************/
 @media screen and (max-width: 990px) {
   .separacion h2 {

@@ -1,13 +1,14 @@
-/********************* PAGINA INDEX*********************************/
+/*************************************************************************** PAGINA INDEX******************************************************************/
 .hero {
     text-align: center;
     height: 90vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.411)), url("../img/hero-nuevo-bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.411)), url("../img/hero-nuevo-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +54,7 @@ a:hover {
     border: $color-principal;
     transform: scale(1.2);
     transition: background-color 1s ease-in-out;
-    transition: 0.8s;
+    transition: 0.9s;
 }
 
 /**********************************************************OPINIONES NUEVO****************************************************************/
@@ -71,10 +72,10 @@ a:hover {
         font-style: normal;
         font-size: 40px;
         color: white;
+        padding: 15px;
     }
 
 }
-
 
 .global {
     display: flex;
@@ -86,6 +87,7 @@ a:hover {
     p {
         font-size: 17px;
         font-weight: 100;
+        font-style: oblique;
 
     }
 }
@@ -96,21 +98,17 @@ a:hover {
 
 .nombre {
     font-size: 25px;
-}
-
-.card-body {
-    transform: none;
+    font-style: oblique;
 }
 
 .col-md-4 {
     padding: 20px;
 }
 
-/*******************************************************************************************************************************************************/
+/******************************************************SECCION NUESTRAS TERAPIAS INDEX******************************************************************************/
 
 .tienda {
     background-color: whitesmoke;
-
     width: 100%;
 
     h2 {
@@ -124,6 +122,7 @@ a:hover {
         font-weight: 350;
         font-style: normal;
         font-size: 40px;
+        padding: 15px;
     }
 
     div {
@@ -226,7 +225,7 @@ a:hover {
 /******************************************************************************GALERIA INDEX*********************************************************************/
 .galeria {
     background-color: $color-secundario;
-    background: linear-gradient(rgb(173, 209, 231) 25%, rgb(166, 188, 202) 70%, rgb(170, 203, 209) 100%);
+    background: linear-gradient(rgb(220, 235, 245) 25%, rgb(196, 217, 229) 70%, rgb(220, 238, 241) 100%);
     width: 100%;
 
     h2 {
@@ -238,61 +237,72 @@ a:hover {
         font-style: normal;
         font-size: 40px;
         color: white;
+        padding: 15px
     }
 }
-.comunidad-1{
-@extend %ext-comunidad;
-        font-family: "Cinzel", serif;
-        font-weight: 600;
-        font-style:oblique;
-    img{
-        width: 40%;
+
+.comunidad-1 {
+    @extend %ext-comunidad;
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-style: oblique;
+
+    img {
+        width: 45%;
         padding-bottom: 20px;
         margin-top: 20px;
         padding-left: 30px;
+        border-radius: 20px;
     }
-    h3{
+
+    h3 {
         font-size: 30px;
         width: 50%;
         font-weight: 800
     }
-    p{
-        font-size: 14px;
-        padding: 60px
 
-    }
-}
-.comunidad-2{
-    @extend %ext-comunidad;
-        font-family: "Cinzel", serif;
+    p {
+        font-size: 14px;
+        padding: 60px;
         font-weight: 600;
         font-style: oblique;
-        img{
-            width: 40%;
-            padding-bottom: 20px;
-            margin-top: 20px;
-            padding-right: 20px;
-        }
-        h3{
-            font-size: 25px;
-            width: 50%;
-            font-weight: 800;
-            margin-top: 15px;
-    }
-    p{
-        font-size: 14px;
-        padding: 40px;
     }
 }
-.encuentro{
+
+.comunidad-2 {
+    @extend %ext-comunidad;
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    font-style: oblique;
+
+    img {
+        width: 50%;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        width: 50%;
+        font-weight: 800;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 40px;
+        font-weight: 600;
+    }
+}
+
+.encuentro {
     display: flex;
     flex-direction: column;
     flex: 1;
     align-items: center;
 }
-
-
-
 
 /**************************************************************************PAGINA QUIENES SOMOS********************************************************/
 .quienes {
@@ -313,10 +323,11 @@ a:hover {
         font-family: "Bad Script", cursive;
         font-weight: 400;
         font-style: normal;
-        font-size: nth($font-zize, 6);
+        font-size: nth($font-zize, 5);
         color: whitesmoke;
         text-align: center;
         padding: 80px;
+
     }
 }
 
@@ -336,8 +347,6 @@ a:hover {
     }
 
 }
-
-
 
 .servicio-1 {
     @extend %ext-serv;
@@ -371,7 +380,8 @@ a:hover {
     }
 }
 
-/***************************************************************************PAGINA TIENDA***************************************************************************/
+
+/***************************************************************************PAGINA TIENDA**************************************************************************************/
 .calesita {
     height: 30vh;
 
@@ -386,6 +396,7 @@ a:hover {
         font-size: 35px;
         position: relative;
         z-index: 1;
+        padding: 15px;
     }
 
     img {
@@ -443,14 +454,6 @@ a:hover {
 
 }
 
-.almacen div:hover:not(.card-body>img) {
-    transform: scale(1.1);
-    box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
-    -webkit-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
-    -moz-box-shadow: 18px 13px 15px -7px rgba(0, 0, 0, 0.52);
-}
-
-
 .card:hover:not(.card-body>img) {
     transform: scale(1.1);
     transition: 1s;
@@ -466,7 +469,7 @@ a:hover {
     border-radius: 10px;
 }
 
-/****************************************************************************************PAGINA FAQ Y CONTACTO********************************************************/
+/****************************************************************************************PAGINA FAQ Y CONTACTO***********************************************************************/
 .separacion {
     background-color: #7392b7;
     display: flex;
